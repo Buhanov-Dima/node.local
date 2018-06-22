@@ -8,34 +8,41 @@
     <link rel="shortcut icon" href="https://hello.node.io/wp-content/themes/node/assets/img/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="https://hello.node.io/wp-content/themes/node/assets/img/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
-	<link rel="stylesheet" href="/css/owl.carousel.min.css">
-	<link rel="stylesheet" href="/css/owl.theme.default.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet">
 	<link rel="stylesheet" href="/css/style.css">
-	<link rel="stylesheet" href="css/style-lg.css" media="only screen and (max-width:1200px)">
-	<link rel="stylesheet" href="css/style-xl.css" media="only screen and (max-width:992px)">
-	<link rel="stylesheet" href="css/style-md.css" media="only screen and (max-width:768px)">
-	<link rel="stylesheet" href="css/style-xs.css" media="only screen and (max-width:576px)">
 </head>
 <body>
 <header>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-	  <a class="navbar-brand" href="#">Navbar</a>
+	<div class="fx-cnt-between">
+	  <a class="navbar-brand logo" href="#">
+	  	<img src="/img/icons/logo.svg" alt=""><p><b>node</b>power</p>
+	  </a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
-
+	
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-	    <ul class="navbar-nav mr-auto">
+	    <ul class="navbar-nav mx-auto">
 	      <li class="nav-item active">
-	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	        <a class="nav-link" href="#">eon</span></a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="#">Link</a>
+	        <a class="nav-link" href="#">technology</a>
 	      </li>
-	      <li class="nav-item dropdown">
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">company</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">contacts</a>
+	      </li>
+	    </ul>
+	  </div>
+	  <div class="lang">
+	  	<ul>
+	  	  <li class="nav-item dropdown">
 	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	          Dropdown
+	          <img src="/img/icons/world.png" alt="">
 	        </a>
 	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 	          <a class="dropdown-item" href="#">Action</a>
@@ -44,22 +51,81 @@
 	          <a class="dropdown-item" href="#">Something else here</a>
 	        </div>
 	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link disabled" href="#">Disabled</a>
-	      </li>
 	    </ul>
-	    <form class="form-inline my-2 my-lg-0">
-	      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-	    </form>
+	   </div>
 	  </div>
 	</nav>
 </header>
-<section>
-	
+<section id="block-1">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="wrap-b1 text-center mg-t-5">
+					<h1>Intelligent Technology</h1>
+					<p class="b1-txt">For Wireless Future</p>
+					<div class="b1-img">
+						<img src="/img/main/shadow-eon.png" alt="">
+					</div>
+				</div>
+				<div class="btn-center">
+					<a href="#" class="btn-down-1"><span></span>More</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="block-2">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h1 class="b2-h1">Features</h1>
+			</div>
+		</div>
+		<div class="row no-gutters">
+			<div class="col-xl-3">
+				<div class="wrap-b2-txt">
+					<h6>The Future is Wireless</h6>
+					<p>Nodepower is a<br> revolutionary technology,<br> which disrupts a wireless<br> transmission market.</p>
+				</div>
+			</div>
+			<div class="col-xl-6">
+				<div class="wrap-b2-img">
+					<img src="/img/main/bg-b2-1.svg" alt="">
+				</div>
+			</div>
+			<div class="col-xl-3">
+				<div class="wrap-b2-txt">
+					<h6>Multiple devices</h6>
+					<p>Ability to transfer energy<br> to an multiple number of<br> devices in proportion to the<br> power consumption.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="btn-center">
+		<a href="#" class="btn-down-1 white-txt"><span></span>Video</a>
+	</div>
+</section>
+<section id="block-3">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="b3-up">
+					<h1 class="">Technology</h1>
+					<p class="b3-txt">Video</p>
+				</div>
+				<div class="wrap-b3">
+					<a href="#"><div class="btn-video"></div></a>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 <footer>
 	
 </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="/js/main.js"></script>
 </body>
 </html>
