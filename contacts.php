@@ -30,13 +30,14 @@
 						<input type="text" class="e-mail-f" placeholder="e-mail">
 						<input type="text" class="phone-f" placeholder="phone">
 						<input type="text" class="subject-f" placeholder="Subject">
-						<label for="">
-							<span>message</span>
+							<span class="mes-form">message</span>
 							<p>Commercial use. Our innovative developments, research activities in the field of storage and transmission of electricity, allow us to offer solutions that are characterized by high quality and efficiency of use.</p>
-						</label>
-						<div class="re-capcha"></div>
-						<input type="checkbox" class="check-f">
-						<button class="send-f">send</button>
+						<label class="check-f">
+		                    <input class="checkbox" type="checkbox">
+		                    <span class="checkbox-custom"></span>
+		                    <span class="label">Даю согласие на обработку данных</span>
+		                </label>
+						<button class="send-f">Send</button>
 					</form>
 				</div>
 			</div>
