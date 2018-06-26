@@ -700,7 +700,7 @@ footer {
 	font-size: 16px;
 	line-height: 1.9;
 }
-.careers i::before {
+.line-purple::before {
 	content: '';
 	display: block;
 	position: absolute;
@@ -779,3 +779,45 @@ li.active .list-none {
 	line-height: 1.9;
 }
 .list-none li::before {display: none;}
+
+.company {position: relative; margin: auto;}
+.company .careers-txt {
+	max-width: 780px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.wrap-img-team {
+	max-width: 370px;
+	max-height: 370px;
+	overflow: hidden;
+}
+.man {
+	text-align: center;
+	width: 30%;
+	margin: 50px 15px;
+}
+.man .team-name{
+	letter-spacing: 2px;
+	color: #333333;
+	font-size: 14px;
+	font-weight: 500;
+	margin-top: 22px;
+}
+.man span {
+	font-size: 12px;
+	color: #333333;
+	font-weight: 300;
+	opacity: .5;
+	display: block;
+	margin: 23px 0;
+}
+.man p {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 1.9;
+}
+.team {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
