@@ -11,6 +11,10 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700" rel="stylesheet">
 	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="css/style-lg.css" media="only screen and (max-width:1200px)">
+	<link rel="stylesheet" href="css/style-xl.css" media="only screen and (max-width:992px)">
+	<link rel="stylesheet" href="css/style-md.css" media="only screen and (max-width:768px)">
+	<link rel="stylesheet" href="css/style-xs.css" media="only screen and (max-width:576px)">
 </head>
 <body>
 <section id="tech">
@@ -97,6 +101,7 @@
 						<h5>Consumer Electronics</h5>
 						<p>Built on Node technology power pod Eon not only<br> keeps smartphones, smartwatches, fitness trackers<br> continuously charged without wires or plugs, they<br> also gives you more freedom use your gadgets</p>
 					</div>
+					<div class="btn-md-open">Show more</div>
 					<div class="tech-b3 bg-2" id="tab-2">
 						<h5>IOT</h5>
 						<p>Node real wireless power delivers<br> continuous, safe energy without us having<br> to think about it. Just wait for a couple years<br> and you will see smart homes and smart<br> cities made with Node technology</p>

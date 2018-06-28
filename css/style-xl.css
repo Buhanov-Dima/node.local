@@ -1,0 +1,6 @@
+.wrap-b1 {margin: 60px 0 0; height: auto;} header {position: fixed;left: 0; top: 0; width: 100%; height: 60px; background-color: #ffffff; z-index: 10;} .navbar {margin-top: 0;} .lang {display: none;} .navbar-toggler {position: absolute; right: 15px; top: 10px;}
+.fx-cnt-between {display: block;} .navbar-nav {position: static;} .navbar-brand.logo {width: 180px; margin-top: 9px;} .wrap-b2-txt {padding: 0;} .wrap-b2-img {padding: 80px 10px;} .nav-item {text-align: right;}
+.wrap-b2-txt h6::before {display: none;} .footer-form {width: auto;} .company-f, .website-f, .name-f, .business-f, .e-mail-f, .phone-f {max-width: 315px;}
+.subject-f, .message-f {max-width: 663px;} .bg-header {padding-top: 10px; background: radial-gradient(#241D31 -60%, #0C0B0C 131%); padding-bottom: 9px;}
+.bg-header .navbar-brand.logo {margin-top: 0;} .eon-main-center img {width: 100%;} .eon-main-center img{left: 0;} .main-img-eon {display: flex; flex-direction: column;}
+.btn-eon {margin: 45px 0;} .wrap-img-team img {width: 100%;} .team {justify-content: space-around;} .tech-b3 {height: 670px;}

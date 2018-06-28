@@ -11,6 +11,10 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700" rel="stylesheet">
 	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="css/style-lg.css" media="only screen and (max-width:1200px)">
+	<link rel="stylesheet" href="css/style-xl.css" media="only screen and (max-width:992px)">
+	<link rel="stylesheet" href="css/style-md.css" media="only screen and (max-width:768px)">
+	<link rel="stylesheet" href="css/style-xs.css" media="only screen and (max-width:576px)">
 </head>
 <body>
 <header>

@@ -1,0 +1,16 @@
+.wrap-b1 h1 {font-size: 16px;} .b1-txt {font-size: 14px;} .b1-img {max-width: 250px;} .wrap-b1 {margin: 110px 0;} .logo img {max-width: 40px;}
+.navbar-brand.logo {font-size: 16px;} .navbar-brand.logo {width: 140px;} .btn-down-1 {font-size: 14px;} .btn-down-1 span:before {top: -6px; left: 10px;}
+.nav-item {font-size: 14px;} .b2-h1 {font-size: 16px;} .wrap-b2-txt {display: none;} .wrap-b2-img img {max-width: 170px;}
+.md-txt-main h6{color: #ffffff; font-weight: 400; font-size: 14px; text-align: center;} .md-txt-main p {color: rgba(255, 255, 255, .3); font-weight: 400; font-size: 12px; text-align: center; margin-top: 50px;}
+.md-txt-main h6::before {content: ''; position: absolute; left: 0; right: 0; top: 42px; margin: auto; width: 112px; height: 1px; background: radial-gradient(#613DFB 0%, rgba(97, 61, 251, 0) 60%); }
+.md-txt-main {margin: 50px 0; position: relative;} #block-2 .btn-center {display: none;} #block-3 {background-size: cover;} .b3-up h1{ font-size: 16px; } .wrap-b3 {height: 232px;}
+.btn-video {width: 48px; height: 48px;} .btn-video::after {width: 29px; height: 29px;} .btn-video::before {border-width: 5px 0px 5px 6px;}
+.b3-txt {font-size: 14px;} #block-4 {display: none;} .contacts h3 {text-align: center; font-size: 16px;} .contacts p {text-align: center; font-size: 14px;} .e-mail {width: 250px;} .sub-btn {width: 160px;}
+.footer-form {width: 410px; margin: 60px auto 0;} .social {justify-content: center;} .standart-h1-000 {font-size: 16px;} .wrap-contacts {flex-direction: column;}
+.conts {width: auto; margin: 30px 0;} .conts.mid::before, .conts.mid::after {display: none;} .p-robot {font-size: 12px; margin-top: 30px;}
+.company-f, .website-f, .name-f, .business-f, .e-mail-f, .phone-f {max-width: none;} .send-f {max-width: 340px;} .footer-menu a {font-size: 14px;}
+.contacts a, .contacts p, .down-line p {font-size: 14px;}
+#eon-b1 .standart-h1 {display: none;} .eon-main-center img {max-width: 235px;} .btn-eon.active {padding: 15px 69px;} .wrap-eon-b1 img {max-width: 220px; width: 100%; position: relative; top: 50px;}
+.wrap-eon-b1 {text-align: center; height: 220px;} .wrap-eon-b2 {height: 280px; width: 290px;} .wrap-eon-b2 img {top: 100px;} .article {width: 100%;}
+.careers-ul li {font-size: 16px;} .man {width: 70%;} .block-menu {display: none;} #tab-1, #tab-2, #tab-3, #tab-4, #tab-5, #tab-6, #tab-7  {}
+.tech-b3 {height: 846px;} .tech-b3 p {position: absolute; bottom: 40px;} .tech-b3 h5 {position: absolute; bottom: 200px;}

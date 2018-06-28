@@ -25,21 +25,45 @@
 			</div>
 		</div>
 		<div class="row no-gutters">
-			<div class="col-xl-3">
+			<div class="col-xl-3 col-md-4">
 				<div class="wrap-b2-txt">
 					<h6>The Future is Wireless</h6>
 					<p>Nodepower is a<br> revolutionary technology,<br> which disrupts a wireless<br> transmission market.</p>
 				</div>
 			</div>
-			<div class="col-xl-6">
+			<div class="col-xl-6 col-md-4">
 				<div class="wrap-b2-img">
 					<img src="/img/main/bg-b2-1.svg" alt="">
 				</div>
 			</div>
-			<div class="col-xl-3">
+			<div class="col-xl-3 col-md-4">
 				<div class="wrap-b2-txt">
 					<h6>Multiple devices</h6>
 					<p>Ability to transfer energy<br> to an multiple number of<br> devices in proportion to the<br> power consumption.</p>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="wrap-md-txt">
+					<div class="md-txt-main">
+						<h6>The Future is Wireless</h6>
+						<p>Nodepower is a<br> revolutionary technology,<br> which disrupts a wireless<br> transmission market.</p>
+					</div>
+					<div class="md-txt-main">
+						<h6>The Future is Wireless</h6>
+						<p>Nodepower is a<br> revolutionary technology,<br> which disrupts a wireless<br> transmission market.</p>
+					</div>
+					<div class="md-txt-main">
+						<h6>The Future is Wireless</h6>
+						<p>Nodepower is a<br> revolutionary technology,<br> which disrupts a wireless<br> transmission market.</p>
+					</div>
+					<div class="md-txt-main">
+						<h6>The Future is Wireless</h6>
+						<p>Nodepower is a<br> revolutionary technology,<br> which disrupts a wireless<br> transmission market.</p>
+					</div>
+					<div class="md-txt-main">
+						<h6>The Future is Wireless</h6>
+						<p>Nodepower is a<br> revolutionary technology,<br> which disrupts a wireless<br> transmission market.</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -83,4 +107,4 @@
 		<a href="#" class="btn-down-1 white-txt arrow-right"><span></span>Read more about node technology</a>
 	</div>
 </section>
-<?php include ('header.php'); ?>
+<?php include ('footer.php'); ?>

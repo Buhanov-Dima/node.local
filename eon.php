@@ -11,11 +11,15 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700" rel="stylesheet">
 	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="css/style-lg.css" media="only screen and (max-width:1200px)">
+	<link rel="stylesheet" href="css/style-xl.css" media="only screen and (max-width:992px)">
+	<link rel="stylesheet" href="css/style-md.css" media="only screen and (max-width:768px)">
+	<link rel="stylesheet" href="css/style-xs.css" media="only screen and (max-width:576px)">
 </head>
 <body>
 <section id="eon-b1">
 	<header>
-		<nav class="navbar navbar-expand-lg bg-header">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-header">
 		<div class="fx-cnt-between">
 		  <a class="navbar-brand logo white-txt" href="#">
 		  	<img src="/img/icons/logo-wh.png" alt=""><p><b>node</b>power</p>
@@ -86,7 +90,7 @@
 			<div class="col"><h1 class="standart-h1-000 mg-b-2">Technical specs</h1></div>
 		</div>
 		<div class="row">
-			<div class="col-xl-6">
+			<div class="col-xl-6 col-md-6">
 				<div class="wrap-eon-b1">
 					<img src="/img/main/eon-img-1.svg" alt="">
 				</div>
@@ -94,7 +98,7 @@
 					<p>Diameter 2,76 inches (70,1 mm)</p>
 				</div>
 			</div>
-			<div class="col-xl-6">
+			<div class="col-xl-6 col-md-6">
 				<div class="wrap-eon-b2">
 					<img src="/img/main/eon-img-2.svg" alt="">
 				</div>

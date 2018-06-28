@@ -1,0 +1,5 @@
+.e-mail, .sub-btn {width: 140px;} .footer-form {width: 100%;} .footer-menu {flex-direction: column; justify-content: center; align-items: center;}
+.footer-menu a {margin: 25px 0;} .social a {margin: 0 15px 30px;} .down-line {display: none;} .b1-img {max-width: 200px;}
+.send-f {max-width: 250px;} .contacts-form span {margin-left: 50px;} .company-f, .website-f, .name-f, .business-f, .e-mail-f, .phone-f {max-width: 250px; font-size: 20px;}
+.subject-f, .message-f {max-width: 250px; font-size: 20px;} .wrap-eon-b1 {width: 100%} .eon-main-center::before {width: 145px;} .wrap-eon p {display: none;}
+.careers {top: 60px;} .man {width: 100%;}
