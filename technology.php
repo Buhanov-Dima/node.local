@@ -20,7 +20,7 @@
 <section id="tech">
 <div class="bg-tech"></div>
 	<header>
-		<nav class="navbar navbar-expand-lg bg-header">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-header">
 		<div class="fx-cnt-between">
 		  <a class="navbar-brand logo white-txt" href="#">
 		  	<img src="/img/icons/logo-wh.png" alt=""><p><b>node</b>power</p>
@@ -97,11 +97,10 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="wrap-tech-b3">
-					<div class="tech-b3 bg-1" id="tab-1">
+					<div class="tech-b3 bg-1 active" id="tab-1">
 						<h5>Consumer Electronics</h5>
 						<p>Built on Node technology power pod Eon not only<br> keeps smartphones, smartwatches, fitness trackers<br> continuously charged without wires or plugs, they<br> also gives you more freedom use your gadgets</p>
 					</div>
-					<div class="btn-md-open">Show more</div>
 					<div class="tech-b3 bg-2" id="tab-2">
 						<h5>IOT</h5>
 						<p>Node real wireless power delivers<br> continuous, safe energy without us having<br> to think about it. Just wait for a couple years<br> and you will see smart homes and smart<br> cities made with Node technology</p>
@@ -126,6 +125,7 @@
 						<h5>Industrial</h5>
 						<p>Node technology allows to store and transmit energy wirelessly. Now,<br> you will be fully focused on your production and let us do the work<br> for making all your electrical machinery work for you. No more<br> working or designing around wires, cables, conduit, or outlets. Node<br> delivers wireless power safely and continuously, even in highly<br> volatile environments like chemical manufacture or radiology</p>
 					</div>
+					<div class="btn-md-open"><a href="#">Show more</a></div>
 					<div class="block-menu">
 						<ul class="tab-box">
 							<li><a href="#tab-1" class="f-li-a active">Consumer Electronics</a></li>

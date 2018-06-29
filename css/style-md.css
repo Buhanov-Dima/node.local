@@ -6,11 +6,17 @@
 .md-txt-main {margin: 50px 0; position: relative;} #block-2 .btn-center {display: none;} #block-3 {background-size: cover;} .b3-up h1{ font-size: 16px; } .wrap-b3 {height: 232px;}
 .btn-video {width: 48px; height: 48px;} .btn-video::after {width: 29px; height: 29px;} .btn-video::before {border-width: 5px 0px 5px 6px;}
 .b3-txt {font-size: 14px;} #block-4 {display: none;} .contacts h3 {text-align: center; font-size: 16px;} .contacts p {text-align: center; font-size: 14px;} .e-mail {width: 250px;} .sub-btn {width: 160px;}
-.footer-form {width: 410px; margin: 60px auto 0;} .social {justify-content: center;} .standart-h1-000 {font-size: 16px;} .wrap-contacts {flex-direction: column;}
+.footer-form {width: 410px; margin: 60px auto 0;} .social {justify-content: center;} .standart-h1-000, .standart-h1 {font-size: 16px;} .wrap-contacts {flex-direction: column;}
 .conts {width: auto; margin: 30px 0;} .conts.mid::before, .conts.mid::after {display: none;} .p-robot {font-size: 12px; margin-top: 30px;}
 .company-f, .website-f, .name-f, .business-f, .e-mail-f, .phone-f {max-width: none;} .send-f {max-width: 340px;} .footer-menu a {font-size: 14px;}
 .contacts a, .contacts p, .down-line p {font-size: 14px;}
 #eon-b1 .standart-h1 {display: none;} .eon-main-center img {max-width: 235px;} .btn-eon.active {padding: 15px 69px;} .wrap-eon-b1 img {max-width: 220px; width: 100%; position: relative; top: 50px;}
 .wrap-eon-b1 {text-align: center; height: 220px;} .wrap-eon-b2 {height: 280px; width: 290px;} .wrap-eon-b2 img {top: 100px;} .article {width: 100%;}
 .careers-ul li {font-size: 16px;} .man {width: 70%;} .block-menu {display: none;} #tab-1, #tab-2, #tab-3, #tab-4, #tab-5, #tab-6, #tab-7  {}
-.tech-b3 {height: 846px;} .tech-b3 p {position: absolute; bottom: 40px;} .tech-b3 h5 {position: absolute; bottom: 200px;}
+.tech-b3 {height: 846px;} .tech-b3 p {position: absolute; bottom: 200px;} .tech-b3 h5 {position: absolute; bottom: 200px; font-size: 16px;}
+.btn-md-open {display: block; background-color: #ffffff;padding: 48px 0; text-align: center;} #tech-b3-vh {background-color: transparent;} .btn-md-open a{font-size: 14px; color: #333333; font-weight: 300; position: relative;}
+.btn-md-open a::before {content: ''; position: absolute; right: -16px; top: 6px; border: solid transparent; pointer-events: none; border-top-color: #5737DE; border-width: 8px 4px 8px 4px;}
+.tech-b3 {position: relative; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; padding: 0 25px 40px 25px; text-align: center;} .tech-b3 h5 {position: static; margin: 0 0 40px 0; padding: 0;}
+.tech-b3 p {position: static; margin: 0; padding: 0; font-size: 14px;} .btn-md-open a.active::before {border-bottom-color: #5737DE; border-top-color: transparent; top: -2px;}
+.t-item {width: 50%;} .how_circle {width: 34px; height: 34px; margin: 135px 56px 0;} .how_circle::before {width: 80px; height: 80px; left: -24px;} .how_circle::after {width: 133px; height: 133px; left: -50px;}
+.how_circle i::before {width: 188px; height: 188px; left: -79px;} #tech {height: auto;} .wrap-tech img {margin: 60px 0;} .wrap-tech p, .how_it p {font-size: 14px;}
