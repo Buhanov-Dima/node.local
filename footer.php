@@ -16,7 +16,7 @@
 					<div class="">
 						<form class="footer-form" action="">
 							<input type="text" class="e-mail" placeholder="E-MAIL">
-							<button class="sub-btn">subscribe</button>
+							<button data-fancybox data-src="#selectableModal" href="javascript:;" class="sub-btn">subscribe</button>
 						</form>
 					</div>
 					<div class="footer-menu">
@@ -26,10 +26,10 @@
 						<a href="#">Careers</a>
 					</div>
 					<div class="social">
-						<a href="#"><img src="/img/icons/fb.png" alt="facebook"></a>
-						<a href="#"><img src="/img/icons/twit.png" alt="twitter"></a>
-						<a href="#"><img src="/img/icons/inst.png" alt="instagram"></a>
-						<a href="#"><img src="/img/icons/mail.png" alt="email"></a>
+						<a href="#" class="fb-hov"><img src="/img/icons/fb.svg" alt="facebook"></a>
+						<a href="#" class="twit-hov"><img src="/img/icons/twit.png" alt="twitter"></a>
+						<a href="#" class="inst-hov"><img src="/img/icons/inst.png" alt="instagram"></a>
+						<a href="#" class="mail-hov"><img src="/img/icons/mail.png" alt="email"></a>
 					</div>
 				</div>
 			</div>
@@ -44,9 +44,28 @@
 		</div>
 	</div>
 </footer>
+	<div class="card">
+      <div class="card-body">
+        <div id="selectableModal">
+          <h2 data-selectable="true">GDPR Permissions</h2>
+          <form action="" class="popup-form">
+	          <p data-selectable="true">Nodepower will use the information you provide on this form to stay in touch with you, provide company’s news and marketing content. If you consent to us contacting you for these purposes please tick to say how you would like us to contact you:</p>
+	          <label class="check-f">
+		      	<input class="checkbox" type="checkbox">
+		        <span class="checkbox-custom"></span>
+		        <span class="label">E-mail</span>
+		      </label>
+	          <p data-selectable="true">You can change your mind at any time by clicking the unsubscribe link in the footer of any e-mail you receive from us, or by contacting us at info@nodepower.com. We will treat your information with respect to the privacy regulations. By clicking below you agree that we may process your information in accordance to these terms. </p>
+			  <button class="send-f">I agree</button>
+		  </form>
+        </div>
+      </div>
+    </div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
 <script src="/js/main.js"></script>
 </body>
 </html>

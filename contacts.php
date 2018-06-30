@@ -31,12 +31,12 @@
 						<input type="text" class="phone-f" placeholder="phone">
 						<input type="text" class="subject-f" placeholder="Subject">
 						<input type="text" class="message-f" placeholder="message">
-						<label class="check-f">
+						<!--<label class="check-f">
 		                    <input class="checkbox" type="checkbox">
 		                    <span class="checkbox-custom"></span>
 		                    <span class="label">Даю согласие на обработку данных</span>
-		                </label>
-						<button class="send-f">Send</button>
+		                </label>-->
+						<button data-fancybox data-src="#selectableModal" href="javascript:;" class="send-f">Send</button>
 					</form>
 				</div>
 			</div>

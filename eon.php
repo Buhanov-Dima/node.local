@@ -8,6 +8,7 @@
   <link rel="shortcut icon" href="https://hello.node.io/wp-content/themes/node/assets/img/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="https://hello.node.io/wp-content/themes/node/assets/img/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700" rel="stylesheet">
 	<link rel="stylesheet" href="/css/style.css">
@@ -47,9 +48,9 @@
 		  <div class="lang">
 		  	<ul>
 		  	  <li class="nav-item dropdown">
-		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		        <!--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 		          <img src="/img/icons/world-wh.png" alt="">
-		        </a>
+		        </a>-->
 		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 		          <a class="dropdown-item" href="#">Action</a>
 		          <a class="dropdown-item" href="#">Another action</a>
@@ -92,7 +93,7 @@
 		<div class="row">
 			<div class="col-xl-6 col-md-6">
 				<div class="wrap-eon-b1">
-					<img src="/img/main/eon-img-1.svg" alt="">
+					<img src="/img/main/bg-b2-1.png" alt="">
 				</div>
 				<div class="wrap-eon-txt">
 					<p>Diameter 2,76 inches (70,1 mm)</p>

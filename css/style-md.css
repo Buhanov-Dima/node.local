@@ -1,4 +1,4 @@
-.wrap-b1 h1 {font-size: 16px;} .b1-txt {font-size: 14px;} .b1-img {max-width: 250px;} .wrap-b1 {margin: 110px 0;} .logo img {max-width: 40px;}
+.wrap-b1 h1 {font-size: 16px;} .b1-txt {font-size: 14px;} .b1-img {max-width: 250px;} .wrap-b1 {margin: 110px 0;} .logo img {max-width: 140px;}
 .navbar-brand.logo {font-size: 16px;} .navbar-brand.logo {width: 140px;} .btn-down-1 {font-size: 14px;} .btn-down-1 span:before {top: -6px; left: 10px;}
 .nav-item {font-size: 14px;} .b2-h1 {font-size: 16px;} .wrap-b2-txt {display: none;} .wrap-b2-img img {max-width: 170px;}
 .md-txt-main h6{color: #ffffff; font-weight: 400; font-size: 14px; text-align: center;} .md-txt-main p {color: rgba(255, 255, 255, .3); font-weight: 400; font-size: 12px; text-align: center; margin-top: 50px;}
@@ -18,5 +18,6 @@
 .btn-md-open a::before {content: ''; position: absolute; right: -16px; top: 6px; border: solid transparent; pointer-events: none; border-top-color: #5737DE; border-width: 8px 4px 8px 4px;}
 .tech-b3 {position: relative; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; padding: 0 25px 40px 25px; text-align: center;} .tech-b3 h5 {position: static; margin: 0 0 40px 0; padding: 0;}
 .tech-b3 p {position: static; margin: 0; padding: 0; font-size: 14px;} .btn-md-open a.active::before {border-bottom-color: #5737DE; border-top-color: transparent; top: -2px;}
-.t-item {width: 50%;} .how_circle {width: 34px; height: 34px; margin: 135px 56px 0;} .how_circle::before {width: 80px; height: 80px; left: -24px;} .how_circle::after {width: 133px; height: 133px; left: -50px;}
+.t-item {width: 50%;} .how_circle {width: 250px; height: 250px; margin: 135px 0 0;} .how_circle::before {width: 80px; height: 80px; left: -24px;} .how_circle::after {width: 133px; height: 133px; left: -50px;}
 .how_circle i::before {width: 188px; height: 188px; left: -79px;} #tech {height: auto;} .wrap-tech img {margin: 60px 0;} .wrap-tech p, .how_it p {font-size: 14px;}
+.wrap-md-txt {display: block;} #selectableModal {max-width: 374px;}

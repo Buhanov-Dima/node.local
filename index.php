@@ -26,18 +26,34 @@
 		</div>
 		<div class="row no-gutters">
 			<div class="col-xl-3 col-md-4">
-				<div class="wrap-b2-txt">
+				<div class="news news1 wrap-b2-txt">
 					<h6>The Future is Wireless</h6>
 					<p>Nodepower is a<br> revolutionary technology,<br> which disrupts a wireless<br> transmission market.</p>
+				</div>
+				<div class="news news2 wrap-b2-txt">
+					<h6>High efficiency</h6>
+					<p>Almost a complete transmission of energy with 95% efficiency.</p>
+				</div>
+				<div class="news news3 wrap-b2-txt">
+					<h6>Long distance</h6>
+					<p>Transmission of energy on a distance up to 5 meters (16.4 ft.)</p>
 				</div>
 			</div>
 			<div class="col-xl-6 col-md-4">
 				<div class="wrap-b2-img">
-					<img src="/img/main/bg-b2-1.svg" alt="">
+					<img src="/img/main/bg-b2-1.png" alt="">
 				</div>
 			</div>
 			<div class="col-xl-3 col-md-4">
-				<div class="wrap-b2-txt">
+				<div class="news-r news-r1 wrap-b2-txt">
+					<h6>Multiple devices</h6>
+					<p>Ability to transfer energy<br> to an multiple number of<br> devices in proportion to the<br> power consumption.</p>
+				</div>
+				<div class="news-r news-r2 wrap-b2-txt">
+					<h6>Unlimited application</h6>
+					<p>There are no limits for Nodepower technology application. The possibilities of integration range from consumer electronics to industrial use.</p>
+				</div>
+				<div class="news-r news-r3 wrap-b2-txt">
 					<h6>Multiple devices</h6>
 					<p>Ability to transfer energy<br> to an multiple number of<br> devices in proportion to the<br> power consumption.</p>
 				</div>
