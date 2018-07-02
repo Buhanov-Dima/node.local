@@ -84,9 +84,9 @@
 			</div>
 		</div>
 	</div>
-	<div class="btn-center">
+	<!--<div class="btn-center">
 		<a href="#" class="btn-down-1 white-txt"><span></span>Video</a>
-	</div>
+	</div>-->
 </section>
 <section id="block-3">
 	<div class="container">
@@ -94,7 +94,7 @@
 			<div class="col">
 				<div class="b3-up">
 					<h1 class="">Technology</h1>
-					<p class="b3-txt">Video</p>
+					<a href="#" class="btn-down-1 white-txt arrow-right"><span></span>Read more about nodepower technology</a>
 				</div>
 				<div class="wrap-b3">
 					<a href="#"><div class="btn-video"></div></a>
@@ -120,7 +120,7 @@
 		</div>
 	</div>
 	<div class="btn-center">
-		<a href="#" class="btn-down-1 white-txt arrow-right"><span></span>Read more about node technology</a>
+		<a href="#" class="btn-down-1 white-txt arrow-right"><span></span>Read more about nodepower technology</a>
 	</div>
 </section>
 <?php include ('footer.php'); ?>

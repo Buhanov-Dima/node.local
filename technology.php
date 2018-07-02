@@ -100,11 +100,11 @@
 				<div class="wrap-tech-b3">
 					<div class="tech-b3 bg-1 active" id="tab-1">
 						<h5>Consumer Electronics</h5>
-						<p>Built on Node technology power pod Eon not only<br> keeps smartphones, smartwatches, fitness trackers<br> continuously charged without wires or plugs, they<br> also gives you more freedom use your gadgets</p>
+						<p>Built on Nodepower technology power pod Eon not only<br> keeps smartphones, smartwatches, fitness trackers<br> continuously charged without wires or plugs, they<br> also gives you more freedom use your gadgets</p>
 					</div>
 					<div class="tech-b3 bg-2" id="tab-2">
 						<h5>IOT</h5>
-						<p>Node real wireless power delivers<br> continuous, safe energy without us having<br> to think about it. Just wait for a couple years<br> and you will see smart homes and smart<br> cities made with Node technology</p>
+						<p>Nodepower real wireless power delivers<br> continuous, safe energy without us having<br> to think about it. Just wait for a couple years<br> and you will see smart homes and smart<br> cities made with Nodepower technology</p>
 					</div>
 					<div class="tech-b3 bg-3" id="tab-3">
 						<h5>Automotive</h5>
@@ -124,7 +124,7 @@
 					</div>
 					<div class="tech-b3 bg-7" id="tab-7">
 						<h5>Industrial</h5>
-						<p>Node technology allows to store and transmit energy wirelessly. Now,<br> you will be fully focused on your production and let us do the work<br> for making all your electrical machinery work for you. No more<br> working or designing around wires, cables, conduit, or outlets. Node<br> delivers wireless power safely and continuously, even in highly<br> volatile environments like chemical manufacture or radiology</p>
+						<p>Nodepower technology allows to store and transmit energy wirelessly. Now,<br> you will be fully focused on your production and let us do the work<br> for making all your electrical machinery work for you. No more<br> working or designing around wires, cables, conduit, or outlets. Node<br> delivers wireless power safely and continuously, even in highly<br> volatile environments like chemical manufacture or radiology</p>
 					</div>
 					<div class="btn-md-open"><a href="#">Show more</a></div>
 					<div class="block-menu">

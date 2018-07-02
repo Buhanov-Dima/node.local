@@ -37,7 +37,7 @@
 		<div class="row">
 			<div class="col">
 				<div class="down-line">
-					<p>Copyright © 2018 Node SIA.</p>
+					<p>Copyright © 2018 Nodepower SIA.</p>
 					<p>All rights reserved. </p>
 				</div>
 			</div>
@@ -51,7 +51,7 @@
           <form action="" class="popup-form">
 	          <p data-selectable="true">Nodepower will use the information you provide on this form to stay in touch with you, provide company’s news and marketing content. If you consent to us contacting you for these purposes please tick to say how you would like us to contact you:</p>
 	          <label class="check-f">
-		      	<input class="checkbox" type="checkbox">
+		      	<input class="checkbox" type="checkbox" checked="">
 		        <span class="checkbox-custom"></span>
 		        <span class="label">E-mail</span>
 		      </label>

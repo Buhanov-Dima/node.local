@@ -4,12 +4,12 @@
 	<div class="row">
 		<div class="col-xl-12">
 			<div class="company">
-				<h1 class="standart-h1-000">About Node</h1>
+				<h1 class="standart-h1-000">About Nodepower</h1>
 				<p class="careers-txt mg-t-1">Do you want to become a part of a revolutionizing company?</p>
 				<i class="line-purple"></i>
-				<p class="careers-txt mg-t-8">Node is a revolutionary high-tech start-up, which disrupts a market niche of wireless transmission devices for both private and commercial use. Our innovative developments, research activities in the field of storage and transmission of electricity, allow us to offer solutions that are characterized by high quality and efficiency of use.</p>
+				<p class="careers-txt mg-t-8">Nodepower is a revolutionary high-tech start-up, which disrupts a market niche of wireless transmission devices for both private and commercial use. Our innovative developments, research activities in the field of storage and transmission of electricity, allow us to offer solutions that are characterized by high quality and efficiency of use.</p>
 				<p class="careers-txt mg-t-3">As the presence of wireless power transfer technology increases in consumer electronics, many industries are shifting focus towards this technology and its inherent advantages. As communication interfaces are becoming increasingly wireless with technologies like WLAN and Bluetooth, wireless power transfer has become a relevant option. This technology offers new concepts — especially in industrial sectors struggling with tough environmental conditions, aggressive cleaning agents, heavy soiling and high mechanical stresses (e.g. ATEX, medicine, construction machines). </p>
-				<p class="careers-txt mg-t-3">In 2017 the Node brand was created in order to implement the idea of the project, register the intellectual property rights, attract key specialists in the field of wireless energy transmission to take part in the development of the products. Today, we offer the market a number of technical solutions in the field of wireless energy transmission — from consumer electronics to industrial products.</p>
+				<p class="careers-txt mg-t-3">In 2017 the Nodepower brand was created in order to implement the idea of the project, register the intellectual property rights, attract key specialists in the field of wireless energy transmission to take part in the development of the products. Today, we offer the market a number of technical solutions in the field of wireless energy transmission — from consumer electronics to industrial products.</p>
 			</div>
 			<h1 class="standart-h1-000">team</h1>
 			<div class="team">

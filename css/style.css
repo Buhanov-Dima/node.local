@@ -5,7 +5,7 @@ button:focus, input:focus {outline: none;}
 input {outline: none;}
 p, h1, h2, h3, h4, h5, h6 {margin: 0; font-family: 'Montserrat', sans-serif; font-weight: 500;}
 h1, h2, h3, h4, h5 {text-transform: uppercase;}
-
+h1{font-size: 32px;}
 .mg-t-1 {margin-top: 1em;}
 .mg-t-2 {margin-top: 2em;}
 .mg-t-3 {margin-top: 3em;}
@@ -50,9 +50,13 @@ header {height: 10vh; position: relative; z-index: 10;}
 .navbar-nav .nav-item a{
 	text-transform: uppercase;
 }
+.nav-item a {
+	font-size: 12px;
+}
 .navbar {
 	padding: 0 72px;
 	margin-top: 60px;
+	background-color: transparent!important;
 }
 .lang ul {
 	list-style: none;
@@ -75,11 +79,14 @@ header {height: 10vh; position: relative; z-index: 10;}
 .wrap-b1 {
 	padding: 67px 0 150px;
 }
+.wrap-b1 h1 {
+	font-size: 36px;
+}
 .b1-img {
 	overflow: hidden;
 	margin-top: 105px;
-
 }
+.navbar-light .navbar-toggler {border: none;}
 #block-1 {
 	position: relative;
 	overflow: hidden;
@@ -87,6 +94,7 @@ header {height: 10vh; position: relative; z-index: 10;}
 .b1-txt {
 	margin-top: 16px;
 	color: #828282;
+	font-size: 24px;
 }
 .btn-center {
 	position: absolute;
@@ -304,7 +312,7 @@ footer {
 .contacts p {margin-top: 50px;}
 .down-line {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	margin-bottom: 40px;
 	margin-top: 40px;
 }
@@ -869,6 +877,7 @@ li.active .list-none {
 	margin: auto;
 	width: 100%;
 	background: url('/img/main/right-circle.png') no-repeat center right;
+	z-index: -10;
 }
 #tech::before {
 	content: '';
@@ -879,6 +888,7 @@ li.active .list-none {
 	margin: auto;
 	width: 100%;
 	background: url('/img/main/left-circle.png') no-repeat center left;
+	z-index: -10;
 }
 .bg-tech {
 	background: url('/img/main/line-1.png') no-repeat center;
@@ -895,6 +905,7 @@ li.active .list-none {
 	margin: auto;
 	width: 100%;
 	background: url('/img/main/line-2.png') no-repeat center top 350px;
+	z-index: -10;
 }
 .bg-tech::after {
 	content: '';
@@ -905,6 +916,7 @@ li.active .list-none {
 	margin: auto;
 	width: 100%;
 	background: url('/img/main/line-3.png') no-repeat center bottom;
+	z-index: -10;
 }
 	
 .wrap-tech {
@@ -1220,10 +1232,10 @@ li.active .list-none {
 }
 .wrap-md-txt {display: none;}
 .careers a{
-	display: block;
-	color: rgba(61, 61, 61, .7);
-	margin: 100px 0 80px;
+	color: rgba(19, 19, 19, .7);
 }
+.last-careers p{color: rgba(61, 61, 61, .7);}
+.last-careers {margin: 60px 0 80px;}
 .bg-gray {
 	background-color: #E5E5E5;
 	position: absolute;
@@ -1392,3 +1404,4 @@ li.active .list-none {
 	90% {width: 240px; height: 240px;border-color: 1px solid rgba(97, 61, 251, .8);}
 	100% {width: 260px; height: 260px; opacity: 0;}
 }
+

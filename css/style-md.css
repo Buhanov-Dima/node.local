@@ -11,7 +11,7 @@
 .company-f, .website-f, .name-f, .business-f, .e-mail-f, .phone-f {max-width: none;} .send-f {max-width: 340px;} .footer-menu a {font-size: 14px;}
 .contacts a, .contacts p, .down-line p {font-size: 14px;}
 #eon-b1 .standart-h1 {display: none;} .eon-main-center img {max-width: 235px;} .btn-eon.active {padding: 15px 69px;} .wrap-eon-b1 img {max-width: 220px; width: 100%; position: relative; top: 50px;}
-.wrap-eon-b1 {text-align: center; height: 220px;} .wrap-eon-b2 {height: 280px; width: 290px;} .wrap-eon-b2 img {top: 100px;} .article {width: 100%;}
+.wrap-eon-b1 {text-align: center; height: 220px;} .wrap-eon-b2 {height: 280px; width: 290px; margin-top: 70px;} .wrap-eon-b2 img {top: 100px;} .article {width: 100%;}
 .careers-ul li {font-size: 16px;} .man {width: 70%;} .block-menu {display: none;} #tab-1, #tab-2, #tab-3, #tab-4, #tab-5, #tab-6, #tab-7  {}
 .tech-b3 {height: 846px;} .tech-b3 p {position: absolute; bottom: 200px;} .tech-b3 h5 {position: absolute; bottom: 200px; font-size: 16px;}
 .btn-md-open {display: block; background-color: #ffffff;padding: 48px 0; text-align: center;} #tech-b3-vh {background-color: transparent;} .btn-md-open a{font-size: 14px; color: #333333; font-weight: 300; position: relative;}
