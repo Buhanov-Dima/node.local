@@ -185,6 +185,12 @@ header {height: 10vh; position: relative; z-index: 10;}
     height: 80px;
     background: radial-gradient(#613DFB 0%, rgba(97, 61, 251, 0) 60%);
 }
+.news-r, .news {
+	display: none;
+}
+.news1.active, .news2.active, .news3.active {display: flex;}
+.news-r1.active, .news-r2.active {display: flex;}
+
 .btn-down-1.white-txt {color: #ffffff;}
 #block-3 {
 	background: url('/img/main/bg-b3.jpg') no-repeat center;
