@@ -45,17 +45,13 @@
 				</div>
 			</div>
 			<div class="col-xl-3 col-md-4">
-				<div class="news-r news-r1 wrap-b2-txt active">
+				<div class="news-r news-r1 wrap-b2-txt">
 					<h6>Multiple devices</h6>
 					<p>Ability to transfer energy<br> to an multiple number of<br> devices in proportion to the<br> power consumption.</p>
 				</div>
 				<div class="news-r news-r2 wrap-b2-txt">
 					<h6>Unlimited application</h6>
 					<p>There are no limits for Nodepower technology application. The possibilities of integration range from consumer electronics to industrial use.</p>
-				</div>
-				<div class="news-r news-r3 wrap-b2-txt">
-					<h6>Multiple devices</h6>
-					<p>Ability to transfer energy<br> to an multiple number of<br> devices in proportion to the<br> power consumption.</p>
 				</div>
 			</div>
 			<div class="col-md-12">

@@ -6,11 +6,11 @@ $(document).ready(function(){
 	  $(this).addClass('active');
 	});
 
-  $(".btn-eon").click(function(e) {
-    e.preventDefault();
-    $(".btn-eon ").removeClass('active');
-    $(this).addClass('active');
-  });
+	  $(".btn-eon").click(function(e) {
+	    e.preventDefault();
+	    $(".btn-eon ").removeClass('active');
+	    $(this).addClass('active');
+	  });
 
 	$('.tab-box a').click(function(e) {
         e.preventDefault();
@@ -32,11 +32,22 @@ $(document).ready(function(){
 
 
 
-   $(window).scroll(function(){ 
- 
-     if ($(this).scrollTop() < 800 && > 900)  {
-               $('.news1').addClass('active');
-    }
+
+   $(window).scroll(function(){
+ 		
+        if ($(this).scrollTop() > 800 && $(this).scrollTop() < 1000)  {
+        	$('.news').removeClass('active');
+        	$('.news-r').removeClass('active');
+            $('.news1').addClass('active');
+    	}
+    	if ($(this).scrollTop() > 1000 && $(this).scrollTop() < 1200)  {
+        	$('.news').removeClass('active');
+        	$('.news-r').removeClass('active');
+            $('.news-r2').addClass('active');
+    	}
+
+
+
     });
 
 });
