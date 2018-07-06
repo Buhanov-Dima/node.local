@@ -133,9 +133,11 @@ header {height: 10vh; position: relative; z-index: 10;}
 #block-2 {
 	background: radial-gradient(#241D31 0%, #0C0B0C 100%);
 	position: relative;
-	display: flex;
+	display: block;
 	align-items: center;
 	padding-bottom: 150px;
+	z-index: 1;
+	width:100%;
 }
 .wrap-b2-img {
 	background: radial-gradient(rgba(97, 61, 251, 0.22) 0%, rgba(97, 61, 251, 0) 70%);
@@ -187,6 +189,7 @@ header {height: 10vh; position: relative; z-index: 10;}
 }
 .news-r, .news {
 	display: none;
+	opacity: 0;
 }
 .news1.active, .news2.active, .news3.active {display: flex;}
 .news-r1.active, .news-r2.active {display: flex;}
@@ -1411,3 +1414,4 @@ li.active .list-none {
 	100% {width: 260px; height: 260px; opacity: 0;}
 }
 
+.stop-scrolling {height: 100%;overflow: hidden;padding-right: 20px;}

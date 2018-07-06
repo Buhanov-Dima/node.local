@@ -1,6 +1,5 @@
 $(document).ready(function(){
 
-    var sost = 0;
 
 	$(".careers-ul li").click(function(e) {
 	  e.preventDefault();
@@ -32,73 +31,52 @@ $(document).ready(function(){
         $(id).fadeIn(1500);
     });
 
+   
+    if ($(window).width()>768) {
 
-    if ($(window).width()>992) {
-
-        $(window).scroll(function(){
-
-            
-            var top = $(window).scrollTop();
-            var yes = $("#block-2").offset().top;
-
-            if(top > yes && sost != 5) {
-                $(window).scrollTop( $("#block-2").offset().top );
-
-                document.onmousewheel = function (e) {
-                  e.preventDefault();
-
-                  if (sost == 0) {
-                    sost = 1;
-                    $('.news1').addClass('active');
-                  }
-                  if (sost == 1) {
-                    sost = 2;
-                    $('.news1').removeClass('active');
-                    $('.news-r1').addClass('active');
-                  }
-                  if (sost == 2) {
-                    sost = 3;
-                    $('.news-r1').removeClass('active');
-                    $('.news2').addClass('active');
-                  }
-                  if (sost == 3) {
-                    sost = 4;
-                    $('.news2').removeClass('active');
-                    $('.news-r2').addClass('active');
-                  }
-                  if (sost == 4) {
-                    sost = 5;
-                    $('.news3').removeClass('active');
-                    $('.news-r2').addClass('active');
-                  }
-
-                }
-
-
-            }
-            /*
-        
-            if ($(this).scrollTop() > 800 && $(this).scrollTop() < 1000)  {
-
-                $('.news').removeClass('active');
-                $('.news-r').removeClass('active');
-                $('.news1').addClass('active');
-            }
-
-            if ($(this).scrollTop() > 1000 && $(this).scrollTop() < 1200)  {
-
-                $('.news').removeClass('active');
-                $('.news-r').removeClass('active');
-                $('.news-r2').addClass('active');
-
-            }
-            */
-
-
-        });
-
+        document.onscroll = function() {onWheel();};
     }
 
+
+    function onWheel(e) {
+        
+        var top = $(window).scrollTop();
+        var yes = $("#block-2").offset().top;
+        
+          if(top > yes/1.3 && $('.news3').hasClass('active')==false) {
+            
+              if ($('.news-r2').hasClass('active')==true) {
+                $('.news-r2').removeClass('active');
+                $('.news3').addClass('active').animate({opacity: 1}, 400);
+              }
+
+              if ($('.news2').hasClass('active')==true) {
+                $('.news2').removeClass('active');
+                $('.news-r2').addClass('active').animate({opacity: 1}, 400);
+              }
+
+              if ($('.news-r1').hasClass('active')==true) {
+                $('.news-r1').removeClass('active');
+                $('.news2').addClass('active').animate({opacity: 1}, 400);
+              }
+
+              if ($('.news1').hasClass('active')==true) {
+                $('.news1').removeClass('active');
+                $('.news-r1').addClass('active').animate({opacity: 1}, 400);
+              }
+
+              if ($('.news').hasClass('active')!=true && $('.news-r').hasClass('active')!=true) {
+                $('.news1').addClass('active').animate({opacity: 1}, 400);
+              } 
+
+          }
+    }
+
+                
+ 
+
+   
+    
 
 
    
