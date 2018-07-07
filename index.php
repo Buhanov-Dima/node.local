@@ -22,6 +22,9 @@
 		<div class="row">
 			<div class="col">
 				<h1 class="b2-h1">Features</h1>
+				<div class="block">
+					
+				</div>
 			</div>
 		</div>
 		<div class="row no-gutters">

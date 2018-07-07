@@ -137,6 +137,12 @@ header {height: 10vh; position: relative; z-index: 10;}
 	align-items: center;
 	padding-bottom: 150px;
 }
+#block-2.fixed {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
 .wrap-b2-img {
 	background: radial-gradient(rgba(97, 61, 251, 0.22) 0%, rgba(97, 61, 251, 0) 70%);
 	text-align: center;
