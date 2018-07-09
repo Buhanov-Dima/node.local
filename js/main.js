@@ -38,22 +38,6 @@ $(document).ready(function(){
     }
 
 
-<<<<<<< HEAD
-   $(window).scroll(function(){
- 		
-        if ($(this).scrollTop() > 800 && $(this).scrollTop() < 1000)  {
-        	$('.news').removeClass('active');
-        	$('.news-r').removeClass('active');
-            $('.news1').addClass('active');
-    	}
-    	if ($(this).scrollTop() > 1000 && $(this).scrollTop() < 1200)  {
-        	$('.news').removeClass('active');
-        	$('.news-r').removeClass('active');
-            $('.news-r2').addClass('active');
-    	}
-      
-    });
-=======
     function onWheel(e) {
         
         var top = $(window).scrollTop();
@@ -95,8 +79,7 @@ $(document).ready(function(){
     
 
 
-   
->>>>>>> 1a4e23ca9b874ab16a469b1ec080b3d79d923328
+  
 
    
    /*$('#block-2').bind('mousewheel DOMMouseScroll', function(e) {
