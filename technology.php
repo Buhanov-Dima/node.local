@@ -100,7 +100,7 @@
 				<div class="wrap-tech-b3">
 					<div class="tech-b3 bg-1 active" id="tab-1">
 						<h5>Consumer Electronics</h5>
-						<p>Built on Nodepower technology power pod Eon not only<br> keeps smartphones, smartwatches, fitness trackers<br> continuously charged without wires or plugs, they<br> also gives you more freedom use your gadgets</p>
+						<p>Built on Nodepower technology power pod Eon not only<br> keeps smartphones, smartwatches, fitness trackers<br> continuously charged without cords, it<br> also gives you more freedom of using your gadgets everyday.</p>
 					</div>
 					<div class="tech-b3 bg-2" id="tab-2">
 						<h5>IOT</h5>
@@ -108,15 +108,15 @@
 					</div>
 					<div class="tech-b3 bg-3" id="tab-3">
 						<h5>Automotive</h5>
-						<p>You can leave you electric car on the parking with<br> Node power station and don't think about cables<br> and converters. Also we can built Node<br> transmitter right into your vehicles, every time<br> you drive, your Node-empowered devices, from<br> smartphones</p>
+						<p>You can leave you electric car on the parking lot with<br> Nodepower station and forget about cables<br> and converters. Also we can build Node<br> transmitter right into your vehicles. Every time<br> you drive, your Nodepower-empowered devices, from<br> smartphones to wearables, will automatically charge.</p>
 					</div>
 					<div class="tech-b3 bg-4" id="tab-4">
 						<h5>Retail</h5>
-						<p>Imagine entire store with digital price tags,<br> without wires or batteries, which allows to<br> remotely add promotions in an instant. Mobile<br> checkout stations with always-charged devices,<br> accurate pricing, and data.</p>
+						<p>Imagine the entire store with digital price tags,<br> without wires or batteries, which allows to<br> remotely add promotions in an instant. Mobile<br> checkout stations with always-charged devices,<br> accurate pricing, and data.</p>
 					</div>
 					<div class="tech-b3 bg-5" id="tab-5">
 						<h5>Travel</h5>
-						<p>Stay connected whenever you go by plane, train or<br> bus.. Airports, railway stations, bus stations  + planes,<br> trains, buses, etc. You don't need to look for a free<br> power socket anymore! Stay charged with wireless<br> charging stations at your favorite place</p>
+						<p>Stay connected whenever you travel by plane, train or<br> bus. Wireless charging spots are at airports, railway and bus stations  + on planes,<br> trains, buses, etc. You don't need to look for a free<br> power socket or be trapped in one spot for hours waiting for your device to charge.</p>
 					</div>
 					<div class="tech-b3 bg-6" id="tab-6">
 						<h5>Drones</h5>
@@ -124,7 +124,7 @@
 					</div>
 					<div class="tech-b3 bg-7" id="tab-7">
 						<h5>Industrial</h5>
-						<p>Nodepower technology allows to store and transmit energy wirelessly. Now,<br> you will be fully focused on your production and let us do the work<br> for making all your electrical machinery work for you. No more<br> working or designing around wires, cables, conduit, or outlets. Node<br> delivers wireless power safely and continuously, even in highly<br> volatile environments like chemical manufacture or radiology</p>
+						<p>Nodepower technology allows to store and transmit energy wirelessly. Now,<br> you will be fully focused on your production and let us do the work<br> and ensure all your electrical machinery works smoothly. No more<br> working or designing around wires, cables, conduit, or outlets. Node<br> delivers wireless power safely and continuously, even in highly<br> volatile environments like chemical manufacture or radiology</p>
 					</div>
 					<div class="btn-md-open"><a href="#">Show more</a></div>
 					<div class="block-menu">
@@ -147,7 +147,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xl-12">
-				<h1 class="standart-h1-000">competitive advantages</h1>
+				<h1 class="standart-h1-000">Nodepower technology competitive advantages:</h1>
 				<div class="tech-b4 mg-t-6">
 					<div class="t-item">
 						<img src="/img/icons/t-ico-1.png" alt="">
@@ -167,7 +167,7 @@
 					</div>
 					<div class="t-item">
 						<img src="/img/icons/t-ico-5.png" alt="">
-						<p>Energy transmission<br> without a fixed position,<br> in motion as well</p>
+						<p>Energy transmission<br> without a fixed position,<br> including in motion</p>
 					</div>
 					<div class="t-item">
 						<img src="/img/icons/t-ico-6.png" alt="">

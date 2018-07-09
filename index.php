@@ -32,11 +32,11 @@
 				</div>
 				<div class="news news2 wrap-b2-txt">
 					<h6>High efficiency</h6>
-					<p>Almost a complete transmission of energy with 95% efficiency.</p>
+					<p>Energy transmission with 95% efficiency.</p>
 				</div>
 				<div class="news news3 wrap-b2-txt">
 					<h6>Long distance</h6>
-					<p>Transmission of energy on a distance up to 5 meters (16.4 ft.)</p>
+					<p>Energy transmission for up to 5 m. (16.4 ft.)</p>
 				</div>
 			</div>
 			<div class="col-xl-6 col-md-4">
@@ -47,7 +47,7 @@
 			<div class="col-xl-3 col-md-4">
 				<div class="news-r news-r1 wrap-b2-txt">
 					<h6>Multiple devices</h6>
-					<p>Ability to transfer energy<br> to an multiple number of<br> devices in proportion to the<br> power consumption.</p>
+					<p>Ability to transfer energy<br> to an multiple number of<br> devices in proportion to<br> power consumption.</p>
 				</div>
 				<div class="news-r news-r2 wrap-b2-txt">
 					<h6>Unlimited application</h6>
@@ -58,23 +58,23 @@
 				<div class="wrap-md-txt">
 					<div class="md-txt-main">
 						<h6>The Future is Wireless</h6>
-						<p>Nodepower is a<br> revolutionary technology,<br> which disrupts a wireless<br> transmission market.</p>
+						<p>Nodepower is a revolutionary technology, which disrupts a wireless transmission market.</p>
 					</div>
 					<div class="md-txt-main">
-						<h6>The Future is Wireless</h6>
-						<p>Nodepower is a<br> revolutionary technology,<br> which disrupts a wireless<br> transmission market.</p>
+						<h6>High efficiency</h6>
+						<p>Energy transmission with 95% efficiency.</p>
 					</div>
 					<div class="md-txt-main">
-						<h6>The Future is Wireless</h6>
-						<p>Nodepower is a<br> revolutionary technology,<br> which disrupts a wireless<br> transmission market.</p>
+						<h6>Long distance</h6>
+						<p>Energy transmission for up to 5 m. (16.4 ft.)</p>
 					</div>
 					<div class="md-txt-main">
-						<h6>The Future is Wireless</h6>
-						<p>Nodepower is a<br> revolutionary technology,<br> which disrupts a wireless<br> transmission market.</p>
+						<h6>Multiple devices</h6>
+						<p>Ability to transfer energy to an multiple number of devices in proportion to power consumption.</p>
 					</div>
 					<div class="md-txt-main">
-						<h6>The Future is Wireless</h6>
-						<p>Nodepower is a<br> revolutionary technology,<br> which disrupts a wireless<br> transmission market.</p>
+						<h6>Unlimited application</h6>
+						<p>There are no limits for Nodepower technology application. The possibilities of integration range from consumer electronics to industrial use.</p>
 					</div>
 				</div>
 			</div>

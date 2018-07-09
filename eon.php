@@ -78,8 +78,8 @@
 					</div>
 				</div>
 				<div class="eon-txt">
-					<p>Wireless charging station for desktop placement</p>
-					<span>It has small dimensions and is capable of transmitting energy within a radius<br>of up to 5 meters, being at an altitude of up to 200 mmfrom the level of the surface<br> on which it is located. Wireless Power Pod provides charging of several devices<br> simultaneously and is equipped with automatic power control.</span>
+					<p>Eon is a wireless charging station for desktop placement</p>
+					<span>It has small dimensions and is capable of transmitting energy within a radius<br>of up to 5 meters, being at an altitude of up to 200 mmfrom the level of the surface<br> it is on. Wireless Power Pod provides charging of several devices<br> simultaneously and is equipped with automatic power control.</span>
 				</div>
 			</div>
 		</div>
