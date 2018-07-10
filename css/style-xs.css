@@ -9,7 +9,7 @@
 	50% {width: 85px; height: 85px;border-color: 1px solid rgba(97, 61, 251, .5);}
 	100% {width: 140px; height: 140px; opacity: 0;}
 }
-
+.wrap-eon-b1 {height: auto;}
 
 @keyframes second {
 0% {width: 30px; height: 30px; border-color: 1px solid rgba(97, 61, 251, 1);}
