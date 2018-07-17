@@ -1,5 +1,5 @@
 .e-mail, .sub-btn {width: 140px;} .footer-form {width: 100%; justify-content: center;} .footer-menu {flex-direction: column; justify-content: center; align-items: center;}
-.footer-menu a {margin: 25px 0;} .social a {margin: 0 15px 30px;} .down-line {display: none;} .b1-img {max-width: 240px;}
+.footer-menu a {margin: 16px 0;} .social a {margin: 0 15px 30px;} .down-line {display: none;} .b1-img {max-width: 240px;}
 .send-f {max-width: 250px;} .contacts-form span {margin-left: 50px;} .company-f, .website-f, .name-f, .business-f, .e-mail-f, .phone-f {max-width: 250px; font-size: 20px;}
 .subject-f, .message-f {max-width: 250px; font-size: 20px;} .wrap-eon-b1 {width: 100%} .eon-main-center::before {width: 145px;} .wrap-eon p {display: none;}
 .careers {} .man {width: 100%;} .t-item {width: 100%;} .send-f::before {left: 34%;}
@@ -29,3 +29,8 @@
 	50% {width: 85px; height: 85px;border-color: 1px solid rgba(97, 61, 251, .5);}
 	100% {width: 140px; height: 140px; opacity: 0;}
 }
+
+
+.foo-menu {text-align: center;}
+.contacts {align-items: center;}
+.contacts p:nth-child(2), .footer-menu {text-align: center;}

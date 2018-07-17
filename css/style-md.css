@@ -5,11 +5,11 @@
 .md-txt-main h6::before {content: ''; position: absolute; left: 0; right: 0; top: 42px; margin: auto; width: 112px; height: 1px; background: radial-gradient(#613DFB 0%, rgba(97, 61, 251, 0) 60%); }
 .md-txt-main {margin: 50px 0; position: relative;} #block-2 .btn-center {display: none;} #block-3 {background-size: cover;} .b3-up h1{ font-size: 16px; } .wrap-b3 {height: 232px;}
 .btn-video {width: 48px; height: 48px;} .btn-video::after {width: 29px; height: 29px;} .btn-video::before {border-width: 5px 0px 5px 6px;}
-.b3-txt {font-size: 14px;} #block-4 {display: none;} .contacts h3 {text-align: center; font-size: 16px;} .contacts p {text-align: center; font-size: 14px;} .e-mail {width: 250px;} .sub-btn {width: 160px;}
-.footer-form {width: 410px; margin: 60px auto 0;} .social {justify-content: center;} .standart-h1-000, .standart-h1 {font-size: 16px;} .wrap-contacts {flex-direction: column;}
+.b3-txt {font-size: 14px;} #block-4 {display: none;} .contacts h3 {text-align: left; font-size: 16px;} .contacts p {text-align: left; font-size: 14px;} .e-mail {width: 250px;} .sub-btn {width: 160px;}
+.footer-form {width: 100%; margin: 60px auto 0;} .social {justify-content: center;} .standart-h1-000, .standart-h1 {font-size: 16px;} .wrap-contacts {flex-direction: column;}
 .conts {width: auto; margin: 30px 0;} .conts.mid::before, .conts.mid::after {display: none;} .p-robot {font-size: 12px; margin-top: 30px;}
-.company-f, .website-f, .name-f, .business-f, .e-mail-f, .phone-f {max-width: none;} .send-f {max-width: 340px;} .footer-menu a {font-size: 14px;}
-.contacts a, .contacts p, .down-line p {font-size: 14px;}
+.company-f, .website-f, .name-f, .business-f, .e-mail-f, .phone-f {max-width: none;} .send-f {max-width: 340px;} .footer-menu a {font-size: 12px;}
+.contacts a, .contacts p, .down-line p {font-size: 12px;}
 #eon-b1 .standart-h1 {display: none;} .eon-main-center img {max-width: 235px;} .btn-eon.active {padding: 15px 69px;} .wrap-eon-b1 img {max-width: 220px; width: 100%; position: relative; top: 50px;}
 .wrap-eon-b1 {text-align: center; height: 220px;} .wrap-eon-b2 {height: 280px; width: 290px; margin-top: 70px;} .wrap-eon-b2 img {top: 100px;} .article {width: 100%;}
 .careers-ul li {font-size: 16px;} .man {width: 70%;} .block-menu {display: none;} #tab-1, #tab-2, #tab-3, #tab-4, #tab-5, #tab-6, #tab-7  {}
@@ -20,4 +20,6 @@
 .tech-b3 p {position: static; margin: 0; padding: 0; font-size: 14px;} .btn-md-open a.active::before {border-bottom-color: #5737DE; border-top-color: transparent; top: -2px;}
 .t-item {width: 50%;} .how_circle {width: 250px; height: 250px; margin: 135px 0 0;} .how_circle::before {width: 80px; height: 80px; left: -24px;} .how_circle::after {width: 133px; height: 133px; left: -50px;}
 .how_circle i::before {width: 188px; height: 188px; left: -79px;} #tech {height: auto;} .wrap-tech img {margin: 60px 0;} .wrap-tech p, .how_it p {font-size: 14px;}
-.wrap-md-txt {display: block;} #selectableModal {max-width: 374px;}
+.wrap-md-txt {display: block;} #selectableModal {max-width: 374px;} .e-mail, .sub-btn {width: 50%;}
+.foo-menu {text-align: left;} .foo-menu h3, .contacts h3, .footer-form {margin-top: 40px;} .contacts p:nth-child(2), .footer-menu {margin-top: 15px;} 
+.footer-menu {align-items: flex-start; margin-top: 10px;}

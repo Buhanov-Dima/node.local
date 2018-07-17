@@ -1,7 +1,7 @@
 <footer>
 	<div class="container">
 		<div class="row no-gutters justify-content-between">
-			<div class="col-xl-2">
+			<div class="col-lg-2 col-xl-2 col-md-3">
 				<div class="contacts f1">
 					<h3>Contact us</h3>
 					<p>
@@ -10,7 +10,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="col-xl-2">
+			<div class="col-lg-2 col-xl-2 col-md-2">
 				<div class="contacts">
 					<h3>Adress</h3>
 					<p>
@@ -19,7 +19,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="col-xl-1">
+			<div class="col-lg-1 col-xl-1 col-md-1">
 				<div class="foo-menu">
 					<h3>Menu</h3>
 					<div class="footer-menu">
@@ -30,7 +30,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xl-4">
+			<div class="col-lg-4 col-xl-4 col-md-4">
 				<form class="footer-form" action="">
 					<input type="text" class="e-mail" placeholder="E-MAIL">
 					<button data-fancybox data-src="#selectableModal" href="javascript:;" class="sub-btn">subscribe</button>

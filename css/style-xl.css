@@ -4,4 +4,4 @@
 .subject-f, .message-f {max-width: 663px;} .bg-header {padding-top: 10px; background: radial-gradient(#241D31 -60%, #0C0B0C 131%); padding-bottom: 9px;}
 .bg-header .navbar-brand.logo {margin-top: 0;} .eon-main-center img {width: 100%;} .eon-main-center img{left: 0;} .main-img-eon {display: flex; flex-direction: column;}
 .btn-eon {margin: 45px 0;} .wrap-img-team img {width: 100%;} .team {justify-content: space-around;} .tech-b3 {height: 670px;} .navbar {padding-bottom: 15px;}
-.wrap-articles::before {display: none;} .wrap-articles::after {display: none;}
+.wrap-articles::before {display: none;} .wrap-articles::after {display: none;} .sub-btn, .e-mail {width: 50%;}

@@ -4,3 +4,4 @@
 .company-f, .website-f, .name-f, .business-f, .e-mail-f, .phone-f {font-size: 20px;} .subject-f, .message-f {font-size: 20px;} .send-f {width: 220px; height: 56px;}
 .send-f::before {left: 33%; top: 23px;} .careers-ul li {font-size: 20px;} .wrap-eon p {font-size: 20px;} .eon-main-center img {max-width: 294px;} .eon-main-center::before {margin-left: 38px; bottom: -78px;}
 .article.article-last {margin-bottom: 117px;} .foo-menu h3, .contacts h3, .footer-form {margin-top: 78px;} .tech-b4 {margin-bottom: 40px;}
+.e-mail {font-size: 14px;} 
