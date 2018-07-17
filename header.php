@@ -12,6 +12,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700" rel="stylesheet">
 	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="css/style-xxl.css" media="only screen and (max-width:1366px)">
 	<link rel="stylesheet" href="css/style-lg.css" media="only screen and (max-width:1200px)">
 	<link rel="stylesheet" href="css/style-xl.css" media="only screen and (max-width:992px)">
 	<link rel="stylesheet" href="css/style-md.css" media="only screen and (max-width:768px)">
@@ -40,12 +41,14 @@
 	      <li class="nav-item">
 	        <a class="nav-link" href="#">company</a>
 	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#">contacts</a>
-	      </li>
 	    </ul>
 	  </div>
 	  <div class="lang">
+	  	<ul>
+			<li class="nav-item">
+	    		<a class="nav-link" href="#">contacts</a>
+	    	</li>
+	    </ul>
 	  	<ul>
 	  	  <li class="nav-item dropdown">
 	        <!--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

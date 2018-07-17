@@ -1,39 +1,49 @@
 <footer>
 	<div class="container">
-		<div class="row">
-			<div class="col-md-6">
-				<div class="contacts">
+		<div class="row no-gutters justify-content-between">
+			<div class="col-xl-2">
+				<div class="contacts f1">
 					<h3>Contact us</h3>
 					<p>
 						<a href="#">info@nodepower.com</a><br>
 						<a href="#">+ 371 661 638 56</a>
 					</p>
-					<p>Riga, Matisa iela 61 - 28, LV - 1009</p>
 				</div>
 			</div>
-			<div class="col-md-6">
-				<div class="subscribe">
-					<div class="">
-						<form class="footer-form" action="">
-							<input type="text" class="e-mail" placeholder="E-MAIL">
-							<button data-fancybox data-src="#selectableModal" href="javascript:;" class="sub-btn">subscribe</button>
-						</form>
-					</div>
+			<div class="col-xl-2">
+				<div class="contacts">
+					<h3>Adress</h3>
+					<p>
+						<a href="#">Riga, Matisa iela 61 </a><br>
+						<a href="#">- 28, LV - 1009</a>
+					</p>
+				</div>
+			</div>
+			<div class="col-xl-1">
+				<div class="foo-menu">
+					<h3>Menu</h3>
 					<div class="footer-menu">
 						<a href="#">Eon</a>
 						<a href="#">Technology</a>
 						<a href="#">Company</a>
 						<a href="#">Careers</a>
 					</div>
-					<div class="social">
-						<a href="#" class="fb-hov"><img src="/img/icons/fb.svg" alt="facebook"></a>
-						<a href="#" class="twit-hov"><img src="/img/icons/twit.png" alt="twitter"></a>
-						<a href="#" class="inst-hov"><img src="/img/icons/inst.png" alt="instagram"></a>
-						<a href="#" class="mail-hov"><img src="/img/icons/mail.png" alt="email"></a>
-					</div>
+				</div>
+			</div>
+			<div class="col-xl-4">
+				<form class="footer-form" action="">
+					<input type="text" class="e-mail" placeholder="E-MAIL">
+					<button data-fancybox data-src="#selectableModal" href="javascript:;" class="sub-btn">subscribe</button>
+				</form>
+				<div class="social">
+					<a href="#" class="fb-hov"><img src="/img/icons/fb.svg" alt="facebook"></a>
+					<a href="#" class="twit-hov"><img src="/img/icons/twit.png" alt="twitter"></a>
+					<a href="#" class="inst-hov"><img src="/img/icons/inst.png" alt="instagram"></a>
+					<a href="#" class="mail-hov"><img src="/img/icons/mail.png" alt="email"></a>
 				</div>
 			</div>
 		</div>
+
 		<div class="row">
 			<div class="col">
 				<div class="down-line">

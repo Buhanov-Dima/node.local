@@ -93,7 +93,8 @@
 			<div class="col">
 				<div class="b3-up">
 					<h1 class="">Technology</h1>
-					<a href="#" class="btn-down-1 white-txt arrow-right"><span></span>Read more about nodepower technology</a>
+					<p>Read more about nodepower technology</p>
+					<a href="#" class="btn-down-1 white-txt arrow-right"><span></span>Read more</a>
 				</div>
 				<div class="wrap-b3">
 					<a href="#"><div class="btn-video"></div></a>

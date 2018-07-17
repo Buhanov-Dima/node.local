@@ -12,6 +12,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700" rel="stylesheet">
 	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="css/style-xxl.css" media="only screen and (max-width:1366px)">
 	<link rel="stylesheet" href="css/style-lg.css" media="only screen and (max-width:1200px)">
 	<link rel="stylesheet" href="css/style-xl.css" media="only screen and (max-width:992px)">
 	<link rel="stylesheet" href="css/style-md.css" media="only screen and (max-width:768px)">
@@ -24,7 +25,7 @@
 		<nav class="navbar navbar-expand-lg navbar-dark bg-header">
 		<div class="fx-cnt-between">
 		  <a class="navbar-brand logo white-txt" href="#">
-		  	<img src="/img/icons/logo-wh.png" alt=""><p><b>node</b>power</p>
+		  	<img src="/img/icons/logo-wh.png" alt="">
 		  </a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>

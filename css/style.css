@@ -131,6 +131,30 @@ header {height: 10vh; position: relative; z-index: 10;}
 	border-top-color: #5737DE;
 	border-width: 8px 4px 5px 4px;
 }
+
+.btn-down-1.white-txt.arrow-right span{
+	position: absolute;
+	display: block;
+	left: 36px;
+	top: 22px;
+}
+.btn-down-1.white-txt.arrow-right span:after, .btn-down-1.white-txt.arrow-right span:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.btn-down-1.white-txt.arrow-right span:before {
+	border-top-color: #5737DE;
+	border-width: 8px 4px 5px 4px;
+}
+
+
 #block-2 {
 	background: radial-gradient(#241D31 0%, #0C0B0C 100%);
 	position: relative;
@@ -201,7 +225,7 @@ header {height: 10vh; position: relative; z-index: 10;}
 .news1.active, .news2.active, .news3.active {display: flex;}
 .news-r1.active, .news-r2.active {display: flex;}
 
-.btn-down-1.white-txt {color: #ffffff;}
+.btn-down-1.white-txt {color: #ffffff; border-radius: 50px; border: 1px solid #613DFB; width: 240px; height: 56px; display: block; padding: 8px 0; margin: 200px auto 100px;}
 #block-3 {
 	background: url('/img/main/bg-b3.jpg') no-repeat center;
 	padding: 150px 0 300px; 
@@ -259,6 +283,7 @@ header {height: 10vh; position: relative; z-index: 10;}
 	align-items: center;
 	flex-direction: column;	
 }
+.wrap-b3 {display: none;}
 .wrap-b3 a{ opacity: 0; cursor: default;}
 #block-4 {
 	background: url('/img/main/bg-b4.jpg') no-repeat center;
@@ -317,23 +342,23 @@ footer {
 }
 .contacts h3{
 	color: #ffffff;
-	font-size: 24px;
-	margin-top: 66px;
+	font-size: 20px;
+	margin-top: 99px;
 	text-transform: none;
 }
 .contacts a, .contacts p, .down-line p{
 	color: #4F4F4F;
 	font-size: 16px;
 }
-.contacts p {margin-top: 50px;}
+.contacts p {margin: 7px 0;}
 .down-line {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: space-between;
 	margin-bottom: 40px;
 	margin-top: 40px;
 }
 .e-mail {
-	width: 300px;
+	width: 200px;
 	height: 56px;
 	border: none;
 	background-color: #1A1A1A;
@@ -349,18 +374,21 @@ footer {
 }
 .footer-form {
 	display: flex;
-	width: 470px;
+	width: 100%;
 	margin-left: auto;
-	margin-top: 44px;
+	margin-top: 99px;
+	justify-content: flex-end;
 }
 .footer-menu {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 28px;
+	flex-direction: column;
+	margin-top: 70px;
 }
 .footer-menu a {
 	color: #4F4F4F;
 	font-size: 16px;
+	margin: 0 0 14px;
 }
 .social {
 	display: flex;
@@ -870,6 +898,7 @@ li.active .list-none {
 	opacity: .7;
 	display: block;
 	margin: 23px 0;
+	text-transform: uppercase;
 }
 .man p {
 	font-weight: 300;
@@ -1168,9 +1197,11 @@ li.active .list-none {
 .fb-hov::before {
 	content: '';
 	position: absolute;
-	width: 36px;
-	height: 36px;
-	background: url('/img/icons/fb-p.png');
+	width: 26px;
+	height: 26px;
+	background: url('/img/icons/fb-p.png') no-repeat;
+	background-size: 24px 24px;
+	background-position: 0 1px;
 	opacity: 0;
 	transition: .3s;
 }
@@ -1185,9 +1216,11 @@ li.active .list-none {
 .twit-hov::before {
 	content: '';
 	position: absolute;
-	width: 36px;
-	height: 36px;
-	background: url('/img/icons/twit-p.svg');
+	width: 24px;
+	height: 26px;
+	background: url('/img/icons/twit-p.svg') no-repeat;
+	background-size: 24px 24px;
+	background-position: 0 1px;
 	opacity: 0;
 	transition: .3s;
 }
@@ -1202,9 +1235,11 @@ li.active .list-none {
 .inst-hov::before {
 	content: '';
 	position: absolute;
-	width: 36px;
-	height: 36px;
-	background: url('/img/icons/inst-p.svg');
+	width: 24px;
+	height: 26px;
+	background: url('/img/icons/inst-p.svg') no-repeat;
+	background-size: 24px 24px;
+	background-position: 0 1px;
 	opacity: 0;
 	transition: .3s;
 }
@@ -1219,9 +1254,11 @@ li.active .list-none {
 .mail-hov::before {
 	content: '';
 	position: absolute;
-	width: 36px;
-	height: 36px;
-	background: url('/img/icons/mail-p.svg');
+	width: 24px;
+	height: 26px;
+	background: url('/img/icons/mail-p.svg') no-repeat;
+	background-size: 24px 24px;
+	background-position: 0 1px;
 	opacity: 0;
 	transition: .3s;
 }
@@ -1417,3 +1454,13 @@ li.active .list-none {
 }
 
 .stop-scrolling {height: 100%;overflow: hidden;padding-right: 20px;}
+
+
+
+.lang .nav-link {color: rgba(0,0,0,.5); font-size: 12px; font-family: 'Montserrat', sans-serif; text-transform: uppercase;}
+
+
+.foo-menu h3{ color: #ffffff; font-size: 20px; margin-top: 99px; text-transform: none;}
+.contacts p:nth-child(2) {margin-top: 70px;}
+.contacts.f1 {justify-content: flex-start;}
+.social img {width: 24px; height: 24px;}
