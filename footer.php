@@ -19,7 +19,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="col-lg-1 col-xl-1 col-md-1">
+			<div class="col-md-1 col-xl-1  col-lg-1">
 				<div class="foo-menu">
 					<h3>Menu</h3>
 					<div class="footer-menu">

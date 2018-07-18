@@ -228,6 +228,7 @@ header {height: 10vh; position: relative; z-index: 10;}
 .btn-down-1.white-txt {color: #ffffff; border-radius: 50px; border: 1px solid #613DFB; width: 240px; height: 56px; display: block; padding: 8px 0; margin: 200px auto 100px;}
 #block-3 {
 	background: url('/img/main/bg-b3.jpg') no-repeat center;
+	background-size: cover;
 	padding: 150px 0 300px; 
 }
 .btn-video {
@@ -598,7 +599,8 @@ footer {
 	position: relative;
 	border: 1px solid transparent;
 	border-radius: 50px;
-	padding: 20px 55px;
+	padding: 0 55px;
+	line-height: 4;
 	transition: .5s ease-in-out;
 }
 .btn-eon:hover {
@@ -622,7 +624,7 @@ footer {
 .btn-eon.active {
 	border: 1px solid #5737DE;
 	border-radius: 50px;
-	padding: 20px 55px;
+	
 	background-color: #2B1977;
 }
 .eon-main-center {
@@ -1464,3 +1466,8 @@ li.active .list-none {
 .contacts p:nth-child(2) {margin-top: 70px;}
 .contacts.f1 {justify-content: flex-start;}
 .social img {width: 24px; height: 24px;}
+
+.navbar-nav {width: 100%; display: flex; justify-content: center;}
+.navbar-nav li:last-child {position: absolute; right: 0;}
+.navbar-nav ul {width: 100%; text-align: center;}
+#eon-b1 header {background-color: transparent;}
