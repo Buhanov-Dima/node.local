@@ -2,7 +2,7 @@
 .footer-menu a {margin: 16px 0;} .social a {margin: 0 15px 30px;} .down-line {display: none;} .b1-img {max-width: 240px;}
 .send-f {max-width: 250px;} .contacts-form span {margin-left: 50px;} .company-f, .website-f, .name-f, .business-f, .e-mail-f, .phone-f {max-width: 250px; font-size: 20px;}
 .subject-f, .message-f {max-width: 250px; font-size: 20px;} .wrap-eon-b1 {width: 100%} .eon-main-center::before {width: 145px;} .wrap-eon p {display: none;}
-.careers {margin-top: 130px;} .man {width: 100%;} .t-item {width: 100%;} .send-f::before {left: 34%;}
+.careers {margin-top: 70px; margin-bottom: 60px;} .man {width: 100%;} .t-item {width: 100%;} .send-f::before {left: 34%;}
 .how_circle {max-width: 145px; margin: 0 -125px;} .text-center.mg-t-10.mg-b-5 {margin: 30px 0 40px;}
 @keyframes first {
 	0% {width: 30px; height: 30px; border-color: 1px solid rgba(97, 61, 251, 1);}

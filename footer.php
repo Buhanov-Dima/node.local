@@ -65,6 +65,16 @@
 		        <span class="checkbox-custom"></span>
 		        <span class="label">E-mail</span>
 		      </label>
+		      <label class="check-f">
+		      	<input class="checkbox" type="checkbox" checked="">
+		        <span class="checkbox-custom"></span>
+		        <span class="label">Direct mail</span>
+		      </label>
+		      <label class="check-f">
+		      	<input class="checkbox" type="checkbox" checked="">
+		        <span class="checkbox-custom"></span>
+		        <span class="label">Telephone</span>
+		      </label>
 	          <p data-selectable="true">You can change your mind at any time by clicking the unsubscribe link in the footer of any e-mail you receive from us, or by contacting us at info@nodepower.com. We will treat your information with respect to the privacy regulations. By clicking below you agree that we may process your information in accordance to these terms. </p>
 			  <button class="send-f">I agree</button>
 		  </form>

@@ -24,4 +24,6 @@
 .foo-menu {text-align: left;} .foo-menu h3, .contacts h3, .footer-form {margin-top: 40px;} .contacts p:nth-child(2), .footer-menu {margin-top: 15px;} 
 .footer-menu {align-items: flex-start; margin-top: 10px;} .contacts.f1 {align-items: center;} .contacts {align-items: center;} .foo-menu {text-align: center;} 
 .footer-menu {align-items: center;} .contacts p:nth-child(2), .footer-menu {text-align: center;} 
-.standart-h1-000 {margin-top: 100px;} .wrap-contacts {align-items: center;}
+.standart-h1-000 {margin-top: 100px;} .wrap-contacts {align-items: center;}  .popup-form .check-f {margin: 25px 15px 0;}
+
+.checkbox:checked + .checkbox-custom::before {border-radius: 1px;} .checkbox-custom {border-radius: 1px;}
