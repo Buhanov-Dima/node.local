@@ -23,4 +23,5 @@
 .wrap-md-txt {display: block;} #selectableModal {max-width: 374px;} .e-mail, .sub-btn {width: 50%;}
 .foo-menu {text-align: left;} .foo-menu h3, .contacts h3, .footer-form {margin-top: 40px;} .contacts p:nth-child(2), .footer-menu {margin-top: 15px;} 
 .footer-menu {align-items: flex-start; margin-top: 10px;} .contacts.f1 {align-items: center;} .contacts {align-items: center;} .foo-menu {text-align: center;} 
-.footer-menu {align-items: center;} .contacts p:nth-child(2), .footer-menu {text-align: center;}
+.footer-menu {align-items: center;} .contacts p:nth-child(2), .footer-menu {text-align: center;} 
+.standart-h1-000 {margin-top: 100px;} .wrap-contacts {align-items: center;}

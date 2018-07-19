@@ -73,7 +73,7 @@ header {height: 10vh; position: relative; z-index: 10;}
 }
 .navbar-nav {
 	position: relative;
-	right: 60px;
+	margin-right: 150px;
 }
 .nav-item {margin: 0 17px;}
 .wrap-b1 {
@@ -81,6 +81,9 @@ header {height: 10vh; position: relative; z-index: 10;}
 }
 .wrap-b1 h1 {
 	font-size: 36px;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+	color: #000000;
 }
 .b1-img {
 	overflow: hidden;
@@ -96,6 +99,7 @@ header {height: 10vh; position: relative; z-index: 10;}
 	margin-top: 16px;
 	color: #828282;
 	font-size: 24px;
+	font-weight: 300;
 }
 .btn-center {
 	position: absolute;
@@ -109,6 +113,7 @@ header {height: 10vh; position: relative; z-index: 10;}
 	font-size: 24px;
 	padding-left: 20px;
 	color: #333333;
+	font-weight: 500;
 }
 .btn-down-1 span{
 	position: absolute;
@@ -160,7 +165,7 @@ header {height: 10vh; position: relative; z-index: 10;}
 	position: relative;
 	display: block;
 	align-items: center;
-	padding-bottom: 150px;
+	padding-bottom: 276px;
 	z-index: 1;
 	width:100%;
 }
@@ -180,11 +185,26 @@ header {height: 10vh; position: relative; z-index: 10;}
 	max-width: 300px;
 }
 .b2-h1 {
+	font-weight: 500;
+	font-size: 36px;
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+	margin-top: 173px;
 	text-align: center;
-	color: #ffffff;
-	position: relative;
-	margin-top: 150px;
-	margin-bottom: 60px;
+	margin-bottom: 110px;
+}
+.b3-up h1 {
+	font-weight: 500;
+	font-size: 36px;
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+}
+.b3-up p{
+	font-weight: 500;
+	font-size: 24px;
+	color: #FFFFFF;
+	opacity: 0.7;
+	margin-top: 16px;
 }
 .wrap-b2-txt {
 	height: 100%;
@@ -225,11 +245,26 @@ header {height: 10vh; position: relative; z-index: 10;}
 .news1.active, .news2.active, .news3.active {display: flex;}
 .news-r1.active, .news-r2.active {display: flex;}
 
-.btn-down-1.white-txt {color: #ffffff; border-radius: 50px; border: 1px solid #613DFB; width: 240px; height: 56px; display: block; padding: 8px 0; margin: 200px auto 100px;}
+.btn-down-1.white-txt {
+	color: #ffffff;
+	border-radius: 50px;
+	border: 1px solid #613DFB;
+	width: 240px;
+	height: 56px;
+	display: block;
+	padding: 0;
+	line-height: 3.2;
+	margin: 74px auto 258px;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+
 #block-3 {
 	background: url('/img/main/bg-b3.jpg') no-repeat center;
 	background-size: cover;
-	padding: 150px 0 300px; 
+	padding: 256px 0 300px; 
 }
 .btn-video {
 	width: 160px;
@@ -297,7 +332,7 @@ header {height: 10vh; position: relative; z-index: 10;}
 	font-size: 36px;
 	font-weight: 500;
 	margin-top: 150px;
-	letter-spacing: 2px;
+	letter-spacing: 0.1em;
 }
 .standart-h1-000 {
 	color: #000000;
@@ -305,7 +340,7 @@ header {height: 10vh; position: relative; z-index: 10;}
 	font-size: 36px;
 	font-weight: 500;
 	margin-top: 80px;
-	letter-spacing: 2px;
+	letter-spacing: 0.1em;
 }
 .logo-node-b4 {
 	display: flex;
@@ -354,7 +389,7 @@ footer {
 .contacts p {margin: 7px 0;}
 .down-line {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	margin-bottom: 40px;
 	margin-top: 40px;
 }
@@ -410,7 +445,7 @@ footer {
 	margin-top: 55px;
 	background: url('/img/main/shadow.png') no-repeat bottom center;
 	background-size: contain;
-	padding-bottom: 70px;
+	padding-bottom: 130px;
 }
 .conts {
 	text-align: center;
@@ -424,6 +459,7 @@ footer {
 	opacity: .8;
 	text-transform: uppercase;
 	margin-bottom: 18px;
+	letter-spacing: 0.1em;
 }
 .conts a {
 	font-size: 20px;
@@ -490,6 +526,7 @@ footer {
 }
 .wrap-partners .standart-h1-000 {
 	line-height: 1.8;
+	margin-top: 143px;
 }
 .contacts-form span {
 	
@@ -514,7 +551,7 @@ footer {
 	width: 16px;             /* Обязательно задаем ширину */
 	height: 16px;            /* Обязательно задаем высоту */
 	border: 1px solid #613DFB;
-	border-radius: 1px;
+	border-radius: 50%;
 	left: -25px;
 	top: 4px;
 	cursor: pointer;
@@ -529,10 +566,11 @@ footer {
 	display: block;			 /* Делаем его блочным элементом */
 	position: absolute;      /* Позиционируем его абсолютным образом */
 	/* Задаем расстояние от верхней, правой, нижней и левой границы */
-	top: 2px;
+	top: 3px;
 	right: 2px;
 	bottom: 2px;
-	left: 2px;
+	left: 3px;
+	border-radius: 50%;
 	background: #613DFB;     /* Добавляем фон. Если требуется, можете поставить сюда картинку в виде "галочки", которая будет символизировать, что чекбокс отмечен */
 }
 .check-f {
@@ -548,9 +586,17 @@ footer {
 	border: 1px solid #613DFB;
 	border-radius: 50px;
 	outline: none;
-	margin-top: 40px;
+	margin-top: 55px;
 	margin-bottom: 100px;
 	position: relative;
+	transition: .7s;
+}
+.send-f:hover {
+	background-color: #2B1977;
+	color: #ffffff;
+}
+.send-f:hover .popup-form .send-f::before{
+	    border-left-color: #ffffff;
 }
 .mes-form {
 	display: block;
@@ -602,6 +648,9 @@ footer {
 	padding: 0 55px;
 	line-height: 4;
 	transition: .5s ease-in-out;
+	border: 1px solid #5737DE;
+	border-radius: 50px;
+	font-family: 'Roboto Mono', monospace;
 }
 .btn-eon:hover {
 	background-color: #613DFB;
@@ -621,12 +670,12 @@ footer {
 	border-left-color: #5737DE;
 	border-width: 4px 0px 4px 11px;
 }
+/*
 .btn-eon.active {
 	border: 1px solid #5737DE;
 	border-radius: 50px;
-	
 	background-color: #2B1977;
-}
+}*/
 .eon-main-center {
 	position: relative;
 }
@@ -653,7 +702,7 @@ footer {
 	color: #ffffff;
 	font-size: 12px;
 	text-transform: uppercase;
-	letter-spacing: 2px;
+	letter-spacing: 0.1em;
 	font-weight: 500;
 	margin-top: 170px;
 }
@@ -738,7 +787,7 @@ footer {
 	color: #333333;
 	font-size: 14px;
 	font-weight: 500;
-	letter-spacing: 2px;
+	letter-spacing: 0.1em;
 	text-transform: uppercase;
 }
 .article span{
@@ -746,7 +795,6 @@ footer {
 	color: #333333;
 	font-size: 16px;
 	font-weight: 300;
-	letter-spacing: 1px;
 	margin-top: 18px;
 	line-height: 1.9;
 }
@@ -803,7 +851,7 @@ footer {
 	margin: auto;
 	background: radial-gradient(#613DFB -60%, rgba(97, 61, 251, 0) 91%);
 }
-.careers {position: relative; text-align: center;}
+.careers {position: relative; text-align: center; height: 100%; background-color: #F7F4FD; z-index: -1;}
 .list-none {
 	display: none;
 }
@@ -919,23 +967,29 @@ li.active .list-none {
 	content: '';
 	position: absolute;
 	right: 0;
-	top: 0;
+	top: -50px;
 	bottom: 0;
 	margin: auto;
 	width: 100%;
+	max-width: 624px;
+	max-height: 624px;
 	background: url('/img/main/right-circle.png') no-repeat center right;
-	z-index: -10;
+	background-size: contain;
+	z-index: 0;
 }
 #tech::before {
 	content: '';
 	position: absolute;
-	right: 0;
-	top: 0;
+	left: 0;
+	top: -50px;
 	bottom: 0;
 	margin: auto;
 	width: 100%;
+	max-width: 624px;
+	max-height: 624px;
 	background: url('/img/main/left-circle.png') no-repeat center left;
-	z-index: -10;
+	background-size: contain;
+	z-index: 0;
 }
 .bg-tech {
 	background: url('/img/main/line-1.png') no-repeat center;
@@ -952,7 +1006,8 @@ li.active .list-none {
 	margin: auto;
 	width: 100%;
 	background: url('/img/main/line-2.png') no-repeat center top 350px;
-	z-index: -10;
+	background-size: contain;
+	z-index: 0;
 }
 .bg-tech::after {
 	content: '';
@@ -962,8 +1017,10 @@ li.active .list-none {
 	bottom: 0;
 	margin: auto;
 	width: 100%;
-	background: url('/img/main/line-3.png') no-repeat center bottom;
-	z-index: -10;
+	height: auto;
+	background: url('/img/main/line-3.png') no-repeat left -100px top 170px;
+	background-size: cover;
+	z-index: 0;
 }
 	
 .wrap-tech {
@@ -986,8 +1043,8 @@ li.active .list-none {
 	height: 1px;
 }
 .wrap-tech img {
-	margin-top: 200px;
-	margin-bottom: 60px;
+	margin-top: 100px;
+	margin-bottom: 275px;
 }
 .how_circle {
 	border: 1px solid rgba(97, 61, 251, 0);
@@ -1048,6 +1105,8 @@ li.active .list-none {
 	font-weight: 300;
 	color: rgba(51, 51, 51, .7);
 	line-height: 1.9;
+	margin-top: 70px;
+	margin-bottom: 120px;
 }
 .tech-b3 h5{
 	font-size: 24px;
@@ -1123,9 +1182,10 @@ li.active .list-none {
 .block-menu a{
 	color: #ffffff;
 	font-size: 14px;
-	padding: 25px 50px;
+	padding: 25px 48px;
 	display: block;
 	position: relative;
+	font-family: 'Roboto Mono', monospace;
 }
 .tab-box li {
 	position: relative;
@@ -1292,7 +1352,7 @@ li.active .list-none {
 .last-careers p{color: rgba(61, 61, 61, .7);}
 .last-careers {margin: 60px 0 80px;}
 .bg-gray {
-	background-color: #E5E5E5;
+	background-color: transparent;
 	width: 100%;
 }
 .navbar-gray {
@@ -1307,19 +1367,24 @@ li.active .list-none {
 }
 #selectableModal h2 {
 	color: #333333;
-	font-size: 16px;
+	font-size: 14px;
 	margin-top: 10px;
+	opacity: .8;
+	letter-spacing: 0.1em;
+	font-family: 'Roboto Mono', monospace;
 }
 #selectableModal p {
 	color: #333333;
 	opacity: .7;
 	font-size: 14px;
 	margin-top: 27px;
+	font-weight: 300;
 }
 .popup-form .send-f {
 	margin: 40px auto 0;
 	width: 218px;
 	height: 56px;
+	font-family: 'Roboto Mono', monospace;
 }
 .popup-form .check-f {
 	margin: 25px 0 0;
@@ -1339,7 +1404,7 @@ li.active .list-none {
     position: absolute;
     border: solid transparent;
     pointer-events: none;
-    left: 31%;
+    left: 27%;
     top: 24px;
     border-left-color: #5737DE;
     border-width: 4px 4px 4px 8px;
@@ -1468,6 +1533,10 @@ li.active .list-none {
 .social img {width: 24px; height: 24px;}
 
 .navbar-nav {width: 100%; display: flex; justify-content: center;}
-.navbar-nav li:last-child {position: absolute; right: 0;}
+.navbar-nav li:last-child {position: absolute; right: -150px;}
 .navbar-nav ul {width: 100%; text-align: center;}
 #eon-b1 header {background-color: transparent;}
+#tech .standart-h1 {margin-top: 200px;}
+.how_it .standart-h1-000 {margin-top: 130px;}
+#tech-b4 .standart-h1-000 {margin-top: 168px;}
+.tech-b4.mg-t-6 {margin-bottom: 120px;}

@@ -31,7 +31,7 @@
 		  </button>
 		
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-		    <ul class="navbar-nav white-txt mx-auto">
+		    <ul class="navbar-nav white-txt">
 		      <li class="nav-item">
 		        <a class="nav-link" href="#">eon</span></a>
 		      </li>
