@@ -42,3 +42,4 @@
 .careers-txt.mg-t-1.mg-b-5 {margin-bottom: 15px;}
 .btn-eon {width: 240px; height: 56px; padding: 0 0 0 55px;}
 .eon-txt p {margin-top: 50px;}
+.checkbox:checked + .checkbox-custom::before {top: 2px; left: 2px;}
