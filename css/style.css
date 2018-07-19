@@ -474,7 +474,7 @@ footer {
 .conts a {
 	font-size: 20px;
 	font-weight: 300;
-	color: #828282;
+	color: #828282 !important;
 	margin-top: 18px;
 }
 .wrap-contacts {
