@@ -140,7 +140,7 @@ header {height: 10vh; position: relative; z-index: 10;}
 .btn-down-1.white-txt.arrow-right span{
 	position: absolute;
 	display: block;
-	left: 36px;
+	left: 54px;
 	top: 22px;
 }
 .btn-down-1.white-txt.arrow-right span:after, .btn-down-1.white-txt.arrow-right span:before {
@@ -258,9 +258,16 @@ header {height: 10vh; position: relative; z-index: 10;}
 	font-family: 'Roboto Mono', monospace;
 	font-weight: 300;
 	font-size: 16px;
+	padding-left: 14px;
+	transition: .7s;
+}
+.btn-down-1.white-txt:hover {
+	background-color: #613DFB;
 }
 
-
+.btn-down-1.white-txt:hover span::before{
+    border-left-color: #ffffff !important;
+}
 #block-3 {
 	background: url('/img/main/bg-b3.jpg') no-repeat center;
 	background-size: cover;
@@ -367,6 +374,7 @@ header {height: 10vh; position: relative; z-index: 10;}
 	border-top-color: transparent;
 	border-left-color: #5737DE;
 	border-width: 4px 4px 4px 8px;
+	transition: 0.5s;
 }
 footer {
 	background-color: #131213;
@@ -407,7 +415,9 @@ footer {
 	background-color: #2B1977;
 	color: #ffffff;
 	text-transform: uppercase;
+	transition: 0.7s;
 }
+.sub-btn:hover {background-color: #613DFB;}
 .footer-form {
 	display: flex;
 	width: 100%;
@@ -566,10 +576,10 @@ footer {
 	display: block;			 /* Делаем его блочным элементом */
 	position: absolute;      /* Позиционируем его абсолютным образом */
 	/* Задаем расстояние от верхней, правой, нижней и левой границы */
-	top: 3px;
+	top: 2px;
 	right: 2px;
 	bottom: 2px;
-	left: 3px;
+	left: 2px;
 	border-radius: 50%;
 	background: #613DFB;     /* Добавляем фон. Если требуется, можете поставить сюда картинку в виде "галочки", которая будет символизировать, что чекбокс отмечен */
 }
@@ -595,8 +605,14 @@ footer {
 	background-color: #2B1977;
 	color: #ffffff;
 }
+.popup-form .send-f:hover::before {
+	border-left-color: #ffffff;
+}
 .send-f:hover .popup-form .send-f::before{
 	    border-left-color: #ffffff;
+}
+.send-f:hover::before {
+	border-left-color: #ffffff;
 }
 .mes-form {
 	display: block;
@@ -1189,6 +1205,7 @@ li.active .list-none {
 }
 .tab-box li {
 	position: relative;
+	transition: 0.7s;
 }
 .tab-box li::before {
 	content: '';
@@ -1398,6 +1415,7 @@ li.active .list-none {
     top: 35px;
     border-left-color: #5737DE;
     border-width: 4px 4px 4px 8px;
+    transition: 0.5s;
 }
 .popup-form .send-f::before {
     content: '';
@@ -1408,6 +1426,7 @@ li.active .list-none {
     top: 24px;
     border-left-color: #5737DE;
     border-width: 4px 4px 4px 8px;
+    transition: 0.5s;
 }
 .card {display: none;}
 
