@@ -32,10 +32,10 @@ $(document).ready(function(){
     });
 
 
-	$('a[href^="#"]').click(function(){
+	$('.btn-down-1').click(function(){
         var el = $(this).attr('href');
         $('html,body').animate({
-            scrollTop: $(el).offset().top-130}, 1000);
+            scrollTop: $(el).offset().top}, 1000);
         return false;
 	});
 
