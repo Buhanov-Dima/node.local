@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+var timerId = '0';
    
     if ($(window).width()>768) {
 
@@ -12,9 +13,9 @@ $(document).ready(function(){
         var top = $(window).scrollTop();
         var yes = $("#block-2").offset().top;
         
-          if(top > yes/1.2 && $('.news3').hasClass('active')==false) {
+          if(top > yes/1.4 && $('.news3').hasClass('active')==false && timerId == '0') {
 
-          	var timerId = setInterval(function() {
+          	timerId = setInterval(function() {
             
               if ($('.news-r2').hasClass('active')==true) {
                 $('.news-r2').removeClass('active');
