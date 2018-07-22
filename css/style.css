@@ -1128,11 +1128,12 @@ li.active .list-none {
 	align-items: center;
 }
 .how_it p {
-	font-weight: 300;
+	font-weight: 400;
 	color: rgba(51, 51, 51, .7);
 	line-height: 1.9;
 	margin-top: 66px;
 	margin-bottom: 120px;
+	font-size: 16px;
 }
 .tech-b3 h5{
 	font-size: 24px;
