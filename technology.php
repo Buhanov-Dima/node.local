@@ -88,6 +88,9 @@
 						<div class="how_circle"><i></i><i></i><i></i><i></i><img src="/img/icons/lightning.svg" alt=""></div>
 						<div class="how_circle"><i></i><i></i><i></i><i></i><img src="/img/icons/lightning.svg" alt=""></div>
 					</div>
+					<div class="wrap_waves">
+						<img src="/img/waves.gif" alt="">
+					</div>
 					<p class="text-center mg-t-10 mg-b-5">Drones and quadcopters can be continuously<br> recharged from wireless charging stations<br> on theroute. There is an opportunity</p>
 				</div>
 			</div>
