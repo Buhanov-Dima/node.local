@@ -203,7 +203,7 @@ header {height: 10vh; position: relative; z-index: 10;}
 	font-weight: 500;
 	font-size: 24px;
 	color: #FFFFFF;
-	opacity: 0.7;
+	opacity: 0.8;
 	margin-top: 16px;
 }
 .wrap-b2-txt {
@@ -407,6 +407,7 @@ footer {
 	border: none;
 	background-color: #1A1A1A;
 	padding: 0 20px;
+	color: #fff;
 }
 .sub-btn {
 	width: 170px;
@@ -589,6 +590,7 @@ footer {
 .check-f {
 	position: relative;
 	margin-top: 60px;
+	cursor: pointer;
 }
 .send-f {
 	display: block;
@@ -674,6 +676,7 @@ footer {
 	font-family: 'Roboto Mono', monospace;
 	font-weight: 300;
 	letter-spacing: -0.05em;
+	outline: none;
 }
 .btn-eon:hover {
 	background-color: #613DFB;
@@ -857,7 +860,7 @@ footer {
 }
 .careers-txt {
 	color: #333333;
-	opacity: .7;
+	opacity: .8;
 	font-weight: 300;
 	text-align: center;
 	font-size: 16px;
@@ -895,7 +898,7 @@ footer {
 	color: #333333;
 	font-size: 24px;
 	font-weight: 300;
-	opacity: .7;
+	opacity: .8;
 	border-bottom: 1px solid #BDBDBD;
 	max-width: 770px;
 	margin: 10px auto;
@@ -969,7 +972,7 @@ li.active .list-none {
 	font-size: 12px;
 	color: #333333;
 	font-weight: 300;
-	opacity: .5;
+	opacity: 0.8;
 	display: block;
 	margin: 23px 0;
 	text-transform: uppercase;
