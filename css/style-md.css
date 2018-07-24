@@ -20,7 +20,7 @@
 .tech-b3 p {position: static; margin: 0; padding: 0; font-size: 14px;} .btn-md-open a.active::before {border-bottom-color: #5737DE; border-top-color: transparent; top: -2px;}
 .t-item {width: 50%;} .how_circle {width: 250px; height: 250px; margin: 135px 0 0;} .how_circle::before {width: 80px; height: 80px; left: -24px;} .how_circle::after {width: 133px; height: 133px; left: -50px;}
 .how_circle i::before {width: 188px; height: 188px; left: -79px;} #tech {height: auto;} .wrap-tech img {margin: 60px 0;} .wrap-tech p {font-size: 14px;}
-.wrap-md-txt {display: block;} #selectableModal {max-width: 374px;} .e-mail, .sub-btn {width: 50%;}
+.wrap-md-txt {display: block;} .popup-form-wrap {max-width: 374px;} .e-mail, .sub-btn {width: 50%;}
 .foo-menu {text-align: left;} .foo-menu h3, .contacts h3, .footer-form {margin-top: 40px;} .contacts p:nth-child(2), .footer-menu {margin-top: 15px;} 
 .footer-menu {align-items: flex-start; margin-top: 10px;} .contacts.f1 {align-items: center;} .contacts {align-items: center;} .foo-menu {text-align: center;} 
 .footer-menu {align-items: center;} .contacts p:nth-child(2), .footer-menu {text-align: center;} 

@@ -1392,14 +1392,14 @@ li.active .list-none {
 .navbar-gray {
 	background-color: #E5E5E5!important;
 }
-#selectableModal {
+.popup-form-wrap {
 	max-width: 768px;
 	width: 100%;
 	max-height: 488px;
 	background-color: #F7F4FD;
 	text-align: center;
 }
-#selectableModal h2 {
+.popup-form-wrap h2 {
 	color: #333333;
 	font-size: 14px;
 	margin-top: 10px;
@@ -1407,7 +1407,7 @@ li.active .list-none {
 	letter-spacing: 0.1em;
 	font-family: 'Roboto Mono', monospace;
 }
-#selectableModal p {
+.popup-form-wrap p {
 	color: #333333;
 	opacity: .7;
 	font-size: 14px;
@@ -1592,3 +1592,5 @@ li.active .list-none {
     align-items: center;
     margin-top: 55px;
 }
+
+.invalid_text_field {border: 1px solid red;}
