@@ -207,13 +207,11 @@ header {height: 10vh; position: relative; z-index: 10;}
 	margin-top: 16px;
 }
 .wrap-b2-txt {
-	height: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: center;
 	padding: 28px;
-	position: absolute;
 }
 .wrap-b2-txt p, .wrap-b2-txt h6 {
 	color: #ffffff;
@@ -239,8 +237,7 @@ header {height: 10vh; position: relative; z-index: 10;}
     background: radial-gradient(#613DFB 0%, rgba(97, 61, 251, 0) 60%);
 }
 .news-r, .news {
-	display: none;
-	opacity: 0;
+	
 }
 .news1.active, .news2.active, .news3.active {display: flex;}
 .news-r1.active, .news-r2.active {display: flex;}
@@ -1594,3 +1591,14 @@ li.active .list-none {
 }
 
 .invalid_text_field {border: 1px solid red;}
+
+#block-2 {position: relative;}
+
+#par-1 {
+	position: absolute;
+
+}
+
+.news {
+	height: 400px;
+}
