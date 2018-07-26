@@ -1058,7 +1058,11 @@ li.active .list-none {
 	font-weight: 300;
 	color: rgba(255, 255, 255, .3);
 	line-height: 1.9;
+	text-align: left;
+	margin: 10px 0;
 }
+.wrap-tech ul {text-align: left;padding-left: 20px;}
+.wrap-tech li {color: rgba(255, 255, 255, .3);font-size: 16px;}
 .wrap-tech span{
 	display: block;
 	font-weight: 500;
@@ -1070,7 +1074,7 @@ li.active .list-none {
 }
 .wrap-tech img {
 	margin-top: 100px;
-	margin-bottom: 275px;
+	margin-bottom: 75px;
 }
 .how_circle {
 	border: 1px solid rgba(97, 61, 251, 0);
@@ -1127,12 +1131,13 @@ li.active .list-none {
 	justify-content: center;
 	align-items: center;
 }
+
+.how_it {margin-bottom: 40px;}
 .how_it p {
 	font-weight: 400;
 	color: rgba(51, 51, 51, .7);
 	line-height: 1.9;
-	margin-top: 66px;
-	margin-bottom: 120px;
+	margin:15px 0;
 	font-size: 16px;
 }
 .tech-b3 h5{
@@ -1592,6 +1597,7 @@ li.active .list-none {
 
 .invalid_text_field {border: 1px solid red;}
 
+<<<<<<< HEAD
 #block-2 {position: relative;}
 
 #par-1 {
@@ -1602,3 +1608,6 @@ li.active .list-none {
 .news {
 	height: 400px;
 }
+=======
+.how_block {background: #fcfcff;}
+>>>>>>> df808d6edae95be31c90353e0adc581434970830
