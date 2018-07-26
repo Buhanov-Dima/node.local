@@ -1419,6 +1419,17 @@ li.active .list-none {
 	margin-top: 27px;
 	font-weight: 300;
 }
+
+.popup-form-mail .send-f {
+	margin: 40px auto 0;
+	width: 218px;
+	height: 56px;
+	font-family: 'Roboto Mono', monospace;
+}
+.popup-form-mail .check-f {
+	margin: 25px 50px 0;
+}
+
 .popup-form .send-f {
 	margin: 40px auto 0;
 	width: 218px;
