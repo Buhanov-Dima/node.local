@@ -1,5 +1,16 @@
 $(document).ready(function(){
 
+<<<<<<< HEAD
+var timerId = '0';
+	
+
+	$("#par-1").stellar({
+		scrollProperty: 'scroll',
+		parallaxElements: true
+	});
+	
+});
+=======
    
     if ($(window).width()>768) {
 
@@ -68,3 +79,4 @@ $(document).ready(function(){
 
 
 });
+>>>>>>> df808d6edae95be31c90353e0adc581434970830
