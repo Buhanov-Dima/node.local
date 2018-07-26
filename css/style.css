@@ -1447,7 +1447,7 @@ li.active .list-none {
     border-width: 4px 4px 4px 8px;
     transition: 0.5s;
 }
-.popup-form .send-f::before {
+.popup-form-mail .send-f::before, .popup-form .send-f::before {
     content: '';
     position: absolute;
     border: solid transparent;
