@@ -1608,22 +1608,15 @@ li.active .list-none {
 
 .invalid_text_field {border: 1px solid red;}
 
-<<<<<<< HEAD
-=======
-#block-2 {position: relative;}
->>>>>>> 1b97a1f7072092c9f1623bff3d052eb807a2bc43
-
 #block-2 {position: relative; max-height: 1080px;}
 
 #par-1 {
 	
 }
 
-<<<<<<< HEAD
-=======
 .news {
 	height: 400px;
 }
->>>>>>> 1b97a1f7072092c9f1623bff3d052eb807a2bc43
+
 .how_block {background: #fcfcff;}
 
