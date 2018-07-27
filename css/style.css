@@ -236,7 +236,7 @@ header {height: 10vh; position: relative; z-index: 10;}
     background: radial-gradient(#613DFB 0%, rgba(97, 61, 251, 0) 60%);
 }
 .news-r, .news {
-	
+	margin: 80px 0;
 }
 .news1.active, .news2.active, .news3.active {display: flex;}
 .news-r1.active, .news-r2.active {display: flex;}
@@ -1618,3 +1618,28 @@ li.active .list-none {
 
 .how_block {background: #fcfcff;}
 
+
+
+
+
+/***********new***************/
+.b2-h1 {
+	top: 110px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	z-index: 99;
+}
+.wrap-b2-img {
+	
+}
+
+.plashka {
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+#par-1, #par-4 {
+	margin-top: 250px;
+}
