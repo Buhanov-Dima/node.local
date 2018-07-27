@@ -1597,17 +1597,12 @@ li.active .list-none {
 
 .invalid_text_field {border: 1px solid red;}
 
-<<<<<<< HEAD
-#block-2 {position: relative;}
+
+#block-2 {position: relative; max-height: 1080px;}
 
 #par-1 {
-	position: absolute;
-
+	
 }
 
-.news {
-	height: 400px;
-}
-=======
 .how_block {background: #fcfcff;}
->>>>>>> df808d6edae95be31c90353e0adc581434970830
+
