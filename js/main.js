@@ -1,8 +1,5 @@
 $(document).ready(function(){
 
-
-    jQuery.scrollSpeed(100, 800);
-
 	$(".careers-ul li").click(function(e) {
 	  e.preventDefault();
 	  $(".careers-ul li").removeClass('active');
