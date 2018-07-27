@@ -22,9 +22,10 @@ $('.wrapper-plashka').paroller();
     else { navbar.css('top', '60px'); }
   });
 
+$(function() {  
 
-  $.smoothScroll({
-    speed: 1150,
-    autoCoefficient: 1
-  })
+    // Custom Easing
+    jQuery.scrollSpeed(100, 800, 'easeOutCubic');
+    
+});
 });
