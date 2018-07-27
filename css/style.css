@@ -165,6 +165,7 @@ header {height: 10vh; position: relative; z-index: 10;}
 	position: relative;
 	display: block;
 	align-items: center;
+	padding-top: 250px;
 	padding-bottom: 276px;
 	z-index: 1;
 	width:100%;
@@ -1607,15 +1608,16 @@ li.active .list-none {
 
 .invalid_text_field {border: 1px solid red;}
 
-#block-2 {position: relative; max-height: 1080px;}
+#block-2 {position: relative; max-height: 1380px;}
 
 #par-1 {
 	
 }
 
 .news {
+	margin-bottom: 200px;
 }
-
+.news-r {margin-top: 100px;}
 .how_block {background: #fcfcff;}
 
 
@@ -1639,7 +1641,9 @@ li.active .list-none {
 	right: 0;
 	margin: auto;
 }
-
+#par-4 {
+	margin-top: 200px;
+}
 #par-1, #par-4 {
 	
 }

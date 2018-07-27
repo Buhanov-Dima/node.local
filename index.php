@@ -17,7 +17,7 @@
 		</div>
 	</div>
 </section>
-<section id="block-2" data-paroller-factor="0.1" data-paroller-type="foreground" data-paroller-direction="vertical" style="padding-top: 100px;">
+<section id="block-2">
 	<div class="container">
 		<div class="row">
 			<div class="col">
@@ -43,7 +43,7 @@
 				</div>
 			</div>
 			<div class="col-xl-6 col-md-4">
-				<div class="wrapper-plashka" data-paroller-factor="-0.1" data-paroller-type="foreground" data-paroller-direction="vertical">
+				<div class="wrapper-plashka" data-paroller-factor="-0.3" data-paroller-type="foreground" data-paroller-direction="vertical">
 					<h1 class="b2-h1">Features</h1>
 					<div class="wrap-b2-img">
 						<img src="/img/main/bg-b2-1.png" alt="">

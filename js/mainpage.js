@@ -22,15 +22,12 @@ $('.wrapper-plashka').paroller();
     else { navbar.css('top', '60px'); }
   });
 
-<<<<<<< HEAD
 
 });
 
 $(function() {  
-=======
->>>>>>> 689dc769b9530d296355c5d44841de24428fe9db
 
     // Custom Easing
-    jQuery.scrollSpeed(100, 800);
+    
     
 });
