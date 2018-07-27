@@ -17,7 +17,7 @@
 		</div>
 	</div>
 </section>
-<section id="block-2">
+<section id="block-2" style="max-height: none;">
 	<div class="container">
 		<div class="row">
 			<div class="col">
@@ -29,15 +29,15 @@
 		</div>
 		<div class="row no-gutters">
 			<div class="col-xl-3 col-md-4">
-				<div id="par-1" class="news news1 wrap-b2-txt i-2">
+				<div id="par-1" class="news news1 wrap-b2-txt i-2" style="margin-top: 200px; min-height: 350px;">
 					<h6>The Future is Wireless</h6>
 					<p>Nodepower is a<br> revolutionary technology,<br> which disrupts a wireless<br> transmission market.</p>
 				</div>
-				<div id="par-2" class="news news2 wrap-b2-txt i-2">
+				<div id="par-2" class="news news2 wrap-b2-txt i-2" style="min-height: 350px;">
 					<h6>High efficiency</h6>
 					<p>Energy transmission with 95% efficiency.</p>
 				</div>
-				<div id="par-3" class="news news3 wrap-b2-txt i-2">
+				<div id="par-3" class="news news3 wrap-b2-txt i-2" style="min-height: 350px;">
 					<h6>Long distance</h6>
 					<p>Energy transmission for up to 5 m. (16.4 ft.)</p>
 				</div>
@@ -51,11 +51,11 @@
 				</div>
 			</div>
 			<div class="col-xl-3 col-md-4">
-				<div id="par-4" class="news-r news-r1 wrap-b2-txt i-2">
+				<div id="par-4" class="news-r news-r1 wrap-b2-txt i-2" style="margin-top: 200px; min-height: 350px;">
 					<h6>Multiple devices</h6>
 					<p>Ability to transfer energy<br> to an multiple number of<br> devices in proportion to<br> power consumption.</p>
 				</div>
-				<div id="par-5" class="news-r news-r2 wrap-b2-txt i-2">
+				<div id="par-5" class="news-r news-r2 wrap-b2-txt i-2" style="min-height: 350px;">
 					<h6>Unlimited application</h6>
 					<p>There are no limits for Nodepower technology application. The possibilities of integration range from consumer electronics to industrial use.</p>
 				</div>
