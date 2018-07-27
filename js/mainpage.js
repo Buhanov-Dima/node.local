@@ -23,4 +23,8 @@ $('.wrapper-plashka').paroller();
   });
 
 
+  $.smoothScroll({
+    speed: 1150,
+    autoCoefficient: 1
+  })
 });
