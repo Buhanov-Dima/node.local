@@ -43,6 +43,10 @@
 				</div>
 			</div>
 			<div class="col-xl-6 col-md-4">
+					<h1 class="b2-h1 md-open">Features</h1>
+					<div class="wrap-b2-img md-open">
+						<img src="/img/main/bg-b2-1.png" alt="">
+					</div>
 				<div class="wrapper-plashka" data-paroller-factor="-0.4" data-paroller-type="foreground" data-paroller-direction="vertical">
 					<h1 class="b2-h1">Features</h1>
 					<div class="wrap-b2-img">

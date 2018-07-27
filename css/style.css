@@ -1286,7 +1286,7 @@ li.active .list-none {
 	justify-content: space-between;
 	align-items: baseline;
 }
-.btn-md-open {display: none;}
+.btn-md-open, .md-open {display: none;}
 .fb-hov {
 	transition: .3s;
 }

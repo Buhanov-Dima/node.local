@@ -27,3 +27,5 @@
 .standart-h1-000 {margin-top: 100px;} .wrap-contacts {align-items: center;}  .popup-form .check-f {margin: 25px 15px 0;}
 
 .checkbox:checked + .checkbox-custom::before {border-radius: 1px;} .checkbox-custom {border-radius: 1px;}
+.wrapper-plashka {display: none;} 
+#block-2 {padding-top: 0;} .md-open {display: block;}
