@@ -29,15 +29,15 @@
 		</div>
 		<div class="row no-gutters">
 			<div class="col-xl-3 col-md-4">
-				<div id="par-1" class="news news1 wrap-b2-txt" data-paroller-factor="0.3" data-paroller-type="foreground" data-paroller-direction="vertical">
+				<div id="par-1" class="news news1 wrap-b2-txt" data-paroller-factor="0.2" data-paroller-type="foreground" data-paroller-direction="vertical">
 					<h6>The Future is Wireless</h6>
 					<p>Nodepower is a<br> revolutionary technology,<br> which disrupts a wireless<br> transmission market.</p>
 				</div>
-				<div id="par-2" class="news news2 wrap-b2-txt" data-paroller-factor="0.3" data-paroller-type="foreground" data-paroller-direction="vertical">
+				<div id="par-2" class="news news2 wrap-b2-txt" data-paroller-factor="0.2" data-paroller-type="foreground" data-paroller-direction="vertical">
 					<h6>High efficiency</h6>
 					<p>Energy transmission with 95% efficiency.</p>
 				</div>
-				<div id="par-3" class="news news3 wrap-b2-txt" data-paroller-factor="0.3" data-paroller-type="foreground" data-paroller-direction="vertical">
+				<div id="par-3" class="news news3 wrap-b2-txt" data-paroller-factor="0.2" data-paroller-type="foreground" data-paroller-direction="vertical">
 					<h6>Long distance</h6>
 					<p>Energy transmission for up to 5 m. (16.4 ft.)</p>
 				</div>
