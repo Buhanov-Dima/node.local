@@ -191,7 +191,6 @@ header {height: 10vh; position: relative; z-index: 10;}
 	color: #FFFFFF;
 	margin-top: 173px;
 	text-align: center;
-	margin-bottom: 110px;
 }
 .b3-up h1 {
 	font-weight: 500;
@@ -1615,7 +1614,6 @@ li.active .list-none {
 }
 
 .news {
-	height: 400px;
 }
 
 .how_block {background: #fcfcff;}
