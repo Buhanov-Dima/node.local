@@ -189,7 +189,7 @@ header {height: 10vh; position: relative; z-index: 10;}
 	font-size: 36px;
 	letter-spacing: 0.1em;
 	color: #FFFFFF;
-	margin-top: 173px;
+	margin-top: 100px;
 	text-align: center;
 }
 .b3-up h1 {
@@ -235,7 +235,7 @@ header {height: 10vh; position: relative; z-index: 10;}
     height: 80px;
     background: radial-gradient(#613DFB 0%, rgba(97, 61, 251, 0) 60%);
 }
-.news-r, .news {
+.news-r .i-2, .news .i-2{
 	margin: 80px 0;
 }
 .news1.active, .news2.active, .news3.active {display: flex;}
@@ -1623,7 +1623,7 @@ li.active .list-none {
 
 
 /***********new***************/
-.b2-h1 {
+.plashka .b2-h1 {
 	top: 110px;
 	left: 0;
 	right: 0;
@@ -1641,5 +1641,5 @@ li.active .list-none {
 }
 
 #par-1, #par-4 {
-	margin-top: 250px;
+	
 }
