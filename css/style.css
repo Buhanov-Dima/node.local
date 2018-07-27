@@ -1416,6 +1416,17 @@ li.active .list-none {
 	margin-top: 27px;
 	font-weight: 300;
 }
+
+.popup-form-mail .send-f {
+	margin: 40px auto 0;
+	width: 218px;
+	height: 56px;
+	font-family: 'Roboto Mono', monospace;
+}
+.popup-form-mail .check-f {
+	margin: 25px 50px 0;
+}
+
 .popup-form .send-f {
 	margin: 40px auto 0;
 	width: 218px;
@@ -1436,7 +1447,7 @@ li.active .list-none {
     border-width: 4px 4px 4px 8px;
     transition: 0.5s;
 }
-.popup-form .send-f::before {
+.popup-form-mail .send-f::before, .popup-form .send-f::before {
     content: '';
     position: absolute;
     border: solid transparent;
@@ -1597,6 +1608,10 @@ li.active .list-none {
 
 .invalid_text_field {border: 1px solid red;}
 
+<<<<<<< HEAD
+=======
+#block-2 {position: relative;}
+>>>>>>> 1b97a1f7072092c9f1623bff3d052eb807a2bc43
 
 #block-2 {position: relative; max-height: 1080px;}
 
@@ -1604,5 +1619,11 @@ li.active .list-none {
 	
 }
 
+<<<<<<< HEAD
+=======
+.news {
+	height: 400px;
+}
+>>>>>>> 1b97a1f7072092c9f1623bff3d052eb807a2bc43
 .how_block {background: #fcfcff;}
 
