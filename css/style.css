@@ -1608,7 +1608,7 @@ li.active .list-none {
 
 .invalid_text_field {border: 1px solid red;}
 
-#block-2 {position: relative; max-height: 1380px;}
+#block-2 {position: relative; max-height: 1420px;}
 
 #par-1 {
 	
@@ -1619,6 +1619,8 @@ li.active .list-none {
 }
 .news-r {margin-top: 100px;}
 .how_block {background: #fcfcff;}
+
+.wrapper-plashka {margin-top: 500px;}
 
 
 
