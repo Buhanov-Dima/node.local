@@ -6,6 +6,6 @@ $(document).ready(function(){
 	$('#par-4').paroller();
 	$('#par-5').paroller();
 	$('.wrapper-plashka').paroller();
-	jQuery.scrollSpeed(100, 800);
+	//jQuery.scrollSpeed(60, 700);
 
 });

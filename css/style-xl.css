@@ -10,9 +10,12 @@
 .navbar-nav li:last-child {position: static;}
 #block-3 {padding-top: 180px;} .standart-h1-000 {margin-top: 150px;} .wrap-contacts {align-items: flex-start;} 
 .nav-item a {font-size: 14px;}
-.navbar {padding: 10px 0 15px;} .navbar-nav {box-shadow :9px 9px 8px -10px rgba(0,0,0,0.5);}
+.navbar {padding: 0px;} .navbar-nav {box-shadow :9px 9px 8px -10px rgba(0,0,0,0.5);}
 
 .navbar-dark .navbar-nav {background-color: inherit; box-shadow :9px 9px 8px -10px rgba(255,255,255,0.5);}
 .navbar .navbar-dark {padding-bottom: 0;}
 .navbar {padding-bottom: 0px;}
 .wrap_waves {max-height: 175px;} .wrap_waves img {max-width: 690px;}
+.navbar {min-height: 60px;}
+.eon-txt p::before {display: none;}
+.eon-txt p {font-size: 20px;}

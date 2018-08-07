@@ -22,11 +22,16 @@ $(document).ready(function(){
 
     $(".btn-md-open a").click(function(e) {
         e.preventDefault();
-        $(".btn-md-open a").removeClass('active');
-        $(this).addClass('active');
-        var id = $(this).attr('id');
-        $('.tech-b3').not(id).css({'display':'flex'});
-        $(id).fadeIn(1500);
+        
+        if ($(this).hasClass('active')) {
+            $('.tech-b3').css({'display':'none'});
+            $('.tech-b3.active').css({'display':'flex'});
+            $(this).removeClass('active');
+        } else {
+            $(this).addClass('active');
+            $('.tech-b3').css({'display':'flex'});
+        }
+        
     });
 
 

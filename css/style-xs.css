@@ -38,12 +38,12 @@
 .contacts {align-items: center;}
 .contacts p:nth-child(2), .footer-menu {text-align: center;}
 .navbar {background-color: #ffffff !important;}
-.b1-txt {margin-top: 26px;} .b1-img {margin-top: 100px; margin-bottom: 0px;} .wrap-b2-img { margin-top: 40px; margin-bottom: 20px;}
+.b1-txt {margin-top: 26px;} .b1-img {margin-top: 50px; margin-bottom: 20px;} .wrap-b2-img { margin-top: 40px; margin-bottom: 20px;}
 #block-3 {padding: 25px 0;}
 .maps {padding-bottom: 60px;}
 .conts a {font-size: 20px;}
 .careers-txt.mg-t-1.mg-b-5 {margin-bottom: 15px;}
-.btn-eon {width: 240px; height: 56px; padding: 0 0 0 55px;}
+.btn-eon {width: 240px; height: 56px; padding: 0 0 0 0px;text-align: center;line-height: 56px;}
 .eon-txt p {margin-top: 50px;}
 .checkbox:checked + .checkbox-custom::before {top: 2px; left: 2px;}
 .b3-up p:nth-child(2) {font-size: 14px;}
@@ -57,3 +57,11 @@
 .car-txt-1 {margin-top: 0;}
 .company p:nth-child(2) {font-weight: 500;}
 .logo img {max-height: 17px;}.navbar-brand.logo {width: 100px; padding: 0;}
+.wrap-tech p {max-width: 300px;}
+.wrap-tech ul {max-width: 300px;}
+.how_it p {max-width: 300px;}
+.careers-txt {max-width: 300px;}
+.bg-header .navbar-brand.logo {margin-top: 10px;}
+.btn-center {position: relative;}
+.eon-txt p {font-size: 16px;}
+.btn-eon::before {top:24px;}
